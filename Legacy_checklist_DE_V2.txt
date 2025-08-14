@@ -1,0 +1,263 @@
+
+# Checkliste für die Migration von Altsystemen für Architekten
+
+
+
+## Geschäftlicher Nutzen und Ausrichtung
+
+
+
+□ Haben wir die Geschäftsziele für diese Migration über technische Verbesserungen hinaus klar formuliert?
+
+□ Haben wir bestimmte Probleme von Kunden/Anwendern identifiziert, die durch diese Migration behoben werden sollen?
+
+□ Haben wir potenzielle Zeit- und Kosteneinsparungen für das Unternehmen und die Kunden quantifiziert?
+
+□ Haben wir neue Geschäftsmöglichkeiten identifiziert, die durch die Migration ermöglicht werden?
+
+□ Verfügen wir über Kennzahlen, um den geschäftlichen Nutzen vor und nach der Migration zu messen?
+
+□ Haben wir die Unterstützung der Geschäftsleitung mit Ausrichtung auf die Geschäftsziele gesichert?
+
+□ Verstehen wir, wie diese Migration die langfristige Strategie des Unternehmens unterstützt?
+
+□ Haben wir uns mit den verschiedenen Stakeholdern auf ihre spezifischen Migrationsziele (Umsatzgenerierung, betriebliche Effizienz, Risikominderung) abgestimmt?
+
+□ Haben wir Produktlinien oder Funktionen identifiziert, die unrentabel sind und eher eingestellt als migriert werden sollten?
+
+
+
+## Einbindung der Stakeholder
+
+
+
+□ Haben wir alle relevanten Stakeholder-Gruppen (Endnutzer, Geschäftsbereiche, IT usw.) identifiziert?
+
+□ Haben wir Interviews oder Beobachtungssitzungen mit Mitarbeitern an vorderster Front durchgeführt?
+
+□ Haben wir Input von Endkunden zu ihren Bedürfnissen und Problemen gesammelt?
+
+□ Haben wir Support-Tickets und häufige Beschwerden von Nutzern analysiert?
+
+□ Haben wir uns mit Vertriebs-/Kundendienstteams in Verbindung gesetzt, um die Erwartungen der Kunden zu verstehen?
+
+□ Haben wir einen Kommunikationsplan, um die Stakeholder während der gesamten Migration auf dem Laufenden zu halten?
+
+□ Haben wir Feedback-Kanäle eingerichtet, um kontinuierlich Input von den Stakeholdern zu erhalten?
+
+□ Haben wir uns mit den Finanzteams ausgetauscht, um die Auswirkungen verschiedener Produkte/Funktionen auf den Umsatz zu verstehen?
+
+□ Haben wir systemfremde Workarounds (Tabellenkalkulationen, Access-Datenbanken usw.) identifiziert, die sich aufgrund von Einschränkungen des Altsystems entwickelt haben?
+
+□ Haben wir die Stakeholder in die Ermittlung sinnvoller Möglichkeiten zur Aufteilung der Migration einbezogen? 
+
+*Arbeite mit Business-Experten zusammen, um das System in logische Segmente zu unterteilen, die unabhängig voneinander migriert werden können, wobei der Fokus auf dem geschäftlichen Nutzen und nicht auf technischen Grenzen liegen sollte.*
+
+
+
+## Technische Bewertung
+
+
+
+□ Haben wir die aktuelle Systemarchitektur und die Abhängigkeiten gründlich analysiert?
+
+□ Verstehen wir die Datenmodelle und ihre geschäftliche Relevanz?
+
+□ Haben wir technische Schulden identifiziert, die während der Migration behoben werden sollten?
+
+□ Wissen wir, welche Legacy-Funktionen noch verwendet werden und welche veraltet sind?
+
+□ Haben wir die Sicherheitsrisiken sowohl im Altsystem als auch im Zielsystem bewertet?
+
+□ Verstehen wir die Integrationspunkte mit anderen Systemen und deren Auswirkungen auf die Migration?
+
+□ Haben wir übergreifende Probleme (Protokollierung, Sicherheit usw.) identifiziert, die neu gestaltet werden müssen?
+
+□ Haben wir die Datenflüsse bis zu den Originalquellen zurückverfolgt, anstatt davon auszugehen, dass das Altsystem die Quelle der Wahrheit ist?
+
+*Oftmals sind in den Originalquellsystemen bessere Daten vorhanden, die bei der Übertragung an Altsysteme verloren gegangen sind oder an Qualität eingebüßt haben.*
+
+□ Haben wir wichtige Aggregatoren (für den Geschäftsbetrieb wichtige Berichtsfunktionen) identifiziert?
+
+*Berichte oder Datenaggregationsprozesse, auf die Führungskräfte für den Geschäftsbetrieb angewiesen sind und die bei Migrationen oft zu Engpässen führen.*
+
+□ Haben wir analysiert, wie aktuelle Geschäftsprozesse durch Einschränkungen des Altsystems geprägt sind?
+
+□ Haben wir potenzielle Interception-Punkte (Messaging, APIs, Datenbanken) untersucht, um eine schrittweise Migration zu ermöglichen?
+
+*Identifizieren Sie Stellen, an denen Sie Datenflüsse zwischen Systemen abfangen können, um die Verarbeitung schrittweise auf neue Komponenten umzuleiten.*
+
+
+
+## Migrationsstrategie
+
+
+
+□ Haben wir einen schrittweisen Ansatz entwickelt, der Risiken reduziert?
+
+□ Haben wir besonders wertvolle Komponenten identifiziert, die frühzeitig migriert werden sollten?
+
+□ Verfügen wir über eine Datenmigrationsstrategie, die die Geschäftskontinuität gewährleistet?
+
+□ Haben wir bei Bedarf einen parallelen Betrieb während der Umstellung geplant?
+
+□ Haben wir Rollback-Verfahren für den Fall von Migrationsproblemen definiert?
+
+□ Haben wir einen Plan für die Wartung der Altsysteme während der Migration?
+
+□ Haben wir eine Teststrategie zur Überprüfung der Funktionalität nach der Migration festgelegt?
+
+□ Haben wir die Anwendung des Strangler-Patterns in Betracht gezogen, um Funktionen schrittweise zu ersetzen?
+
+*Ein Pattern, bei dem neue Funktionen nach und nach die alten übernehmen, indem sie Aufrufe abfangen und umleiten.*
+
+□ Haben wir darüber nachgedacht, wichtige Aggregatoren (wichtige Berichte/Funktionen) frühzeitig statt erst am Ende anzugehen?
+
+*Erwäge, wichtige Berichte zuerst zu ersetzen, anstatt sie bis zum Schluss aufzuheben, wo sie die komplette Migration blockieren könnten.*
+
+□ Haben wir die notwendigen Komponenten für die Übergangsarchitektur mit klaren Plänen für ihre spätere Entfernung entworfen?
+
+*Temporäre Komponenten, die während der Migration benötigt werden und entfernt werden sollten, sobald sie nicht mehr gebraucht werden.*
+
+□ Haben wir die Feature-Parity-Falle vermieden, indem wir uns auf die Geschäftsanforderungen konzentriert haben, anstatt alle bestehenden Funktionen zu replizieren?
+
+*Widerstehe der Versuchung, das bestehende System einfach mit neuerer Technologie nachzubauen.*
+
+□ Haben wir Big-Bang-Ansätze zugunsten einer schrittweisen Migration ausdrücklich ausgeschlossen?
+
+□ Haben wir verschiedene Slicing-Ansätze geprüft?
+
+*Erwäge Optionen wie die Migration nach Produktlinie, Benutzergruppe, Geschäftsfähigkeit oder Benutzerreise, um den effektivsten Ansatz zu finden.*
+
+□ Haben wir von Beginn der Migration an häufige Lieferpraktiken implementiert, um die zukünftigen Lieferfähigkeiten zu validieren?
+
+
+
+## Menschliche Faktoren und Änderungsmanagement
+
+
+
+□ Haben wir potenzielle Ablehnungsgründe bei Benutzergruppen identifiziert?
+
+□ Haben wir einen Plan, um Ängste bezüglich der Arbeitsplatzsicherheit oder von Rollenänderungen auszuräumen?
+
+□ Haben wir den Schulungsbedarf für verschiedene Benutzergruppen berücksichtigt?
+
+□ Verstehen wir, wie sich die täglichen Arbeitsabläufe ändern werden und wie wir diesen Übergang unterstützen können?
+
+□ Haben wir allen betroffenen Parteien die Vorteile des neuen Systems vermittelt?
+
+□ Haben wir in jeder Geschäftseinheit Verantwortliche, die die Veränderung vorantreiben?
+
+□ Haben wir überlegt, wie wir die Arbeitsbelastung während der Übergangsphase bewältigen können?
+
+□ Haben wir die Nutzer und Stakeholder auf mögliche vorübergehende Unterschiede in der User Experience während der schrittweisen Migration vorbereitet?
+
+*Während der schrittweisen Migration können Nutzer beim Wechsel zwischen alten und neuen Systemkomponenten unterschiedliche Benutzeroberflächen erleben.*
+
+□ Haben wir die organisatorischen Ursachen angegangen, die überhaupt erst zu der alten Situation geführt haben?
+
+*Überlege, welche Entscheidungsmuster oder welche Unternehmenskultur zur alten Situation beigetragen haben und wie du diese ändern kannst.*
+
+
+
+## Ressourcenplanung
+
+
+
+□ Verfügen wir über die richtige Mischung aus technischen Fähigkeiten für die alten und die neuen Technologien?
+
+□ Haben wir Ressourcen für das Produktmanagement bereitgestellt, um die Migration zu begleiten?
+
+□ Haben wir potenzielle unvorhergesehene technische Herausforderungen im Budget berücksichtigt?
+
+□ Haben wir Notfallpläne für eventuelle Zeitplanverlängerungen?
+
+□ Haben wir die Gesamtbetriebskosten für das neue System genau geschätzt?
+
+□ Haben wir Zugang zu Fachexperten für kritische alte Komponenten?
+
+□ Haben wir den Bedarf an externem Fachwissen für spezielle Migrationsaufgaben berücksichtigt?
+
+□ Haben wir Ressourcen für die Implementierung und spätere Entfernung von Komponenten der Übergangsarchitektur bereitgestellt?
+
+□ Haben wir die Zeit berücksichtigt, die für die Zusammenarbeit mit dem Unternehmen bei der Identifizierung von Migrationsschritten erforderlich ist?
+
+*Stellen Sie sicher, dass der Zeitplan ausreichend Zeit für Workshops zur Analyse und Definition sinnvoller Migrationsschritte vorsieht.*
+
+□ Haben wir die Kosten für den möglichen parallelen Betrieb kritischer Systeme während der Übergangsphasen budgetiert?
+
+
+
+## Lieferansatz
+
+
+
+□ Entwickeln wir „so, wie wir es auch weiterhin tun wollen“, d. h. mit den gleichen Praktiken, die wir nach der Migration anwenden möchten?
+
+*Wenn das Ziel darin besteht, nach der Migration alle zwei Wochen eine neue Version zu veröffentlichen, sollten Sie bereits während der Migration alle zwei Wochen eine neue Version veröffentlichen.*
+
+□ Haben wir kurze Feedback-Schleifen für die frühzeitige Validierung von Migrationsansätzen etabliert?
+
+□ Demonstrieren wir regelmäßig den geschäftlichen Nutzen durch inkrementelle Auslieferungen?
+
+□ Haben wir häufige Releases implementiert, um unsere Fähigkeit zur schnellen Bereitstellung nach der Migration unter Beweis zu stellen?
+
+□ Haben wir eine Testautomatisierung entwickelt, die schnelle und sichere Änderungen unterstützt?
+
+□ Haben wir ein klares Modells für die ownership von Komponenten während der Umstellung und nach der Migration?
+
+□ Haben wir umfangreiche Veränderungsprozesse vermieden, die unseren zukünftigen Lieferzielen widersprechen?
+
+*Verwenden Sie während der Migration keine bürokratischen Change-Management-Prozesse, wenn Sie danach Agilität anstreben.*
+
+
+
+## Systemkonsolidierung (falls zutreffend)
+
+
+
+□ Haben wir die Anforderungen an die Feature-Parität zwischen den zu konsolidierenden Systemen abgebildet?
+
+□ Verstehen wir die unterschiedlichen Benutzererfahrungen und Erwartungen für jedes System?
+
+□ Haben wir mögliche Konflikte in den Geschäftsprozessen zwischen den Systemen erkannt?
+
+□ Haben wir eine Strategie für den Datenabgleich zwischen unterschiedlichen Systemen?
+
+□ Haben wir Entscheidungskriterien für die Lösung widersprüchlicher Anforderungen festgelegt?
+
+□ Verstehen wir die organisatorischen Auswirkungen der Zusammenführung von Benutzergruppen?
+
+□ Haben wir Begriffsunterschiede dokumentiert, um ein einheitliches Verständnis sicherzustellen?
+
+□ Haben wir die Annahme, dass alle Systeme konsolidiert werden müssen, anstatt einige aus dem Betrieb zu nehmen, nochmal überprüft?
+
+
+
+## Planung nach der Migration
+
+
+
+□ Haben wir einen Wartungs- und Supportplan für das neue System?
+
+□ Haben wir definiert, wie der Erfolg der Migration gemessen werden soll?
+
+□ Haben wir Pläne, um nach der Implementierung Feedback von den Benutzern einzuholen?
+
+□ Haben wir einen Prozess für die Behebung von Problemen und für Verbesserungen nach der Einführung festgelegt?
+
+□ Haben wir Pläne für den Wissenstransfer an die Betriebs-Teams?
+
+□ Haben wir architektonische Entscheidungen für die Zukunft dokumentiert?
+
+□ Haben wir eine Retrospektive geplant, um Erfahrungen festzuhalten?
+
+□ Haben wir Prozesse eingerichtet, um sicherzustellen, dass wir im neuen System keine technischen Schulden ansammeln?
+
+□ Haben wir die im Business Case versprochenen Continuous-Delivery-Praktiken umgesetzt?
+
+□ Haben wir überprüft, ob die versprochenen Vorteile (kürzere Markteinführungszeiten, geringere Änderungskosten) tatsächlich realisiert werden?
+
+□ Haben wir einen Plan, um verbleibende Legacy-Komponenten irgendwann außer Betrieb zu nehmen?
+
