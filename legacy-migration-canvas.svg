@@ -7,9 +7,9 @@
    inkscape:version="1.4.2 (1:1.4.2+202505120737+ebf0e940d0)"
    width="420mm"
    height="297mm"
-   inkscape:export-filename="legacy-migration-canvas.png"
-   inkscape:export-xdpi="62.595139"
-   inkscape:export-ydpi="62.595139"
+   inkscape:export-filename="legacy-migration-canvas.pdf"
+   inkscape:export-xdpi="117.36588"
+   inkscape:export-ydpi="117.36588"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.28"
-     inkscape:cx="541.01563"
-     inkscape:cy="433.98438"
+     inkscape:cx="1111.7188"
+     inkscape:cy="657.03125"
      inkscape:window-width="3840"
      inkscape:window-height="2123"
      inkscape:window-x="0"
@@ -86,6 +86,244 @@
        apply_with_radius="true"
        only_selected="false"
        hide_knots="false" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath59">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-91.405102,-58.304402)"
+         id="path59" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath57">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-91.405102,-58.304402)"
+         id="path57" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath55">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-15.893998,-79.909902)"
+         id="path55" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath53">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-38.263003,-57.540701)"
+         id="path53" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath51">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-63.198502,-82.476302)"
+         id="path51" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath49">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-66.469499,-33.368901)"
+         id="path49" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath47">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-387.48531,-25.881498)"
+         id="path47" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath45">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(2.4999999e-6)"
+         id="path45" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath43">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-358.81441,-82.221402)"
+         id="path43" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath41">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-280.20441,-36.343501)"
+         id="path41" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-244.07351,-73.345402)"
+         id="path39" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="translate(-211.72101,-36.051501)"
+         id="path37" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath34">
+      <path
+         d="M 0,115.845 H 430.935 V 0 H 0 Z"
+         transform="matrix(1.3333333,0,0,-1.3333333,365.99733,139.79333)"
+         id="path34" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath32">
+      <path
+         d="M -879.779,576.39 H 621.098 V -390.844 H -879.779 Z"
+         transform="translate(2.4999999e-6)"
+         id="path32" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath31">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-64.185601,-42.289801)"
+         id="path31" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath29">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-64.185601,-42.289801)"
+         id="path29" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath27">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-14.2372,-56.581802)"
+         id="path27" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath25">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-29.033601,-41.784901)"
+         id="path25" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-45.527801,-58.280001)"
+         id="path23" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath21">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-47.691501,-25.7966)"
+         id="path21" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath19">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-260.03381,-20.843501)"
+         id="path19" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath17">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         id="path17" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-241.06901,-58.111101)"
+         id="path15" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-189.0707,-27.7634)"
+         id="path13" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-165.1713,-52.240001)"
+         id="path11" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-143.771,-27.5711)"
+         id="path9" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-95.7165,-66.720502)"
+         id="path7" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="translate(-357.72021,137.42501)"
+         id="path5-3" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3">
+      <path
+         d="M 0,84.076 H 292.498 V 0 H 0 Z"
+         transform="matrix(1.3333333,0,0,-1.3333333,-14.666667,97.434533)"
+         id="path3-33" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1">
+      <path
+         d="M -283.797,560.505 H 1217.08 V -406.729 H -283.797 Z"
+         id="path1-86" />
+    </clipPath>
   </defs>
   <!-- Background and border -->
   <!-- Title Section -->
@@ -131,7 +369,7 @@
      font-weight="bold"
      fill="#4285f4"
      id="text1"
-     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:45.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4">Legacy Migration Canvas</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:'Liberation Sans';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:45.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1">Legacy Migration Canvas</text>
   <rect
      x="798.46643"
      y="35.348751"
@@ -276,7 +514,7 @@
      font-size="15.0564px"
      fill="#888888"
      id="text56"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Legacy Migration Canvas v3.0 - based on arc42 Architecture Inception Canvas by Patrick Roos and arc42 Contributors - Attribution-ShareAlike 4.0 International - Icons by https://lucide.dev/</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Legacy Migration Canvas v3.1 - based on arc42 Architecture Inception Canvas by Patrick Roos and arc42 Contributors - Attribution-ShareAlike 4.0 International - Icons by https://lucide.dev/</text>
   <text
      x="237.71542"
      y="1092.5864"
@@ -294,13 +532,13 @@
      id="text58"
      style="stroke-width:1.2547" />
   <text
-     x="1248.4069"
+     x="1192.4069"
      y="1092.5864"
      font-family="Arial"
      font-size="15.0564px"
      fill="#888888"
      id="text58-6"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:&quot;Liberation Sans&quot;;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Alexander Lorz - alexander@lorz-it.de 08/2025</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Alexander Lorz - alexander@lorz-it.de 08/2025</text>
   <text
      x="72.989822"
      y="160.81898"
@@ -309,7 +547,7 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5"
-     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Business Case &amp; Value Proposition</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:'Liberation Sans';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1">Business Case &amp; Value Proposition</text>
   <text
      x="72.912216"
      y="183.91982"
@@ -318,8 +556,8 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5-9"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;stroke-width:1.2547;fill-opacity:1"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1"
        id="tspan1">Why are we doing this &amp; what do we gain?</tspan></text>
   <text
      x="72.989822"
@@ -345,7 +583,7 @@
      font-weight="bold"
      fill="#4285f4"
      id="text9"
-     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Current System Analysis</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:'Liberation Sans';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1">Current System Analysis</text>
   <text
      x="72.989822"
      y="375.29785"
@@ -386,7 +624,7 @@
      font-weight="bold"
      fill="#4285f4"
      id="text15"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Stakeholder Needs</text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547;fill:#0610af;fill-opacity:1">Stakeholder Needs</text>
   <text
      x="565.42816"
      y="375.29785"
@@ -427,7 +665,7 @@
      font-weight="bold"
      fill="#4285f4"
      id="text21"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Organizational Constraints</text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547;fill:#0610af;fill-opacity:1">Organizational Constraints</text>
   <text
      x="1062.5662"
      y="375.29785"
@@ -468,7 +706,7 @@
      font-weight="bold"
      fill="#4285f4"
      id="text30"
-     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Quality Goals</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:'Liberation Sans';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1">Quality Goals</text>
   <text
      x="72.989822"
      y="663.87939"
@@ -501,7 +739,7 @@
      font-weight="bold"
      fill="#4285f4"
      id="text34"
-     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Technical Constraints</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:'Liberation Sans';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1">Technical Constraints</text>
   <text
      x="565.42816"
      y="663.87939"
@@ -550,7 +788,7 @@
      font-weight="bold"
      fill="#4285f4"
      id="text41"
-     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Migration Strategy</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:'Liberation Sans';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1">Migration Strategy</text>
   <text
      x="1062.5662"
      y="688.97345"
@@ -583,7 +821,7 @@
      font-weight="bold"
      fill="#4285f4"
      id="text46"
-     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Key Architectural Decisions</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:'Liberation Sans';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1">Key Architectural Decisions</text>
   <text
      x="72.989822"
      y="952.46094"
@@ -616,7 +854,7 @@
      font-weight="bold"
      fill="#4285f4"
      id="text50"
-     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Risks &amp; Mitigation</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:'Liberation Sans';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1">Risks &amp; Mitigation</text>
   <text
      x="819.80072"
      y="952.46094"
@@ -653,8 +891,8 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5-9-9"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;stroke-width:1.2547;fill-opacity:1"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1"
        id="tspan1-7">What we're working with</tspan></text>
   <text
      x="566.78882"
@@ -664,8 +902,8 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5-9-9-3"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;stroke-width:1.2547;fill-opacity:1"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1"
        id="tspan1-7-8">Who's affected &amp; what they actually need</tspan></text>
   <text
      x="1062.7645"
@@ -675,8 +913,8 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5-9-9-3-9"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;stroke-width:1.2547;fill-opacity:1"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1"
        id="tspan1-7-8-6">Reality check</tspan></text>
   <text
      x="75.049789"
@@ -686,8 +924,8 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5-9-9-8"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;stroke-width:1.2547;fill-opacity:1"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1"
        id="tspan1-7-9">What matters most</tspan></text>
   <text
      x="568.33667"
@@ -697,8 +935,8 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5-9-9-3-7"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;stroke-width:1.2547;fill-opacity:1"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1"
        id="tspan1-7-8-7">Technical stuff we can't change</tspan></text>
   <text
      x="72.533752"
@@ -708,8 +946,8 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5-9-9-8-0"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;stroke-width:1.2547;fill-opacity:1"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1"
        id="tspan1-7-9-3">Critical decisions that shape the migration</tspan></text>
   <text
      x="820.37909"
@@ -719,8 +957,8 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5-9-9-3-7-0"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;stroke-width:1.2547;fill-opacity:1"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1"
        id="tspan1-7-8-7-9">What could go wrong &amp; how we'll handle it</tspan></text>
   <text
      x="1064.3124"
@@ -730,8 +968,8 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5-9-9-3-9-6"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;stroke-width:1.2547;fill-opacity:1"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0610af;fill-opacity:1"
        id="tspan1-7-8-6-4">How we're going to do this</tspan></text>
   <g
      id="g9"
@@ -950,5 +1188,87 @@
        d="m -322.84529,983.8691 h 17.46877"
        id="path2-6"
        style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g1"
+     transform="matrix(0.14343905,0,0,0.14343905,1380.3931,897.40621)">
+    <path
+       id="path6-8"
+       d="m 0,0 h 8.65 v -37.676 h 19.414 v -8.201 H 0 Z"
+       style="fill:#363e48;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,770.5851,1291.9115)"
+       clip-path="url(#clipPath7)" />
+    <path
+       id="path8"
+       d="m 0,0 c 1.068,0 2.103,0.203 3.108,0.608 1.003,0.407 1.89,0.995 2.659,1.763 0.769,0.769 1.377,1.708 1.826,2.819 0.448,1.111 0.673,2.371 0.673,3.781 0,1.409 -0.225,2.669 -0.673,3.78 -0.449,1.11 -1.057,2.05 -1.826,2.819 C 4.998,16.339 4.111,16.926 3.108,17.332 2.103,17.738 1.068,17.94 0,17.94 c -1.111,0 -2.157,-0.202 -3.139,-0.608 -0.984,-0.406 -1.859,-0.993 -2.628,-1.762 -0.768,-0.769 -1.377,-1.709 -1.826,-2.819 -0.448,-1.111 -0.672,-2.371 -0.672,-3.78 0,-1.41 0.224,-2.67 0.672,-3.781 C -7.144,4.079 -6.535,3.14 -5.767,2.371 -4.998,1.603 -4.123,1.015 -3.139,0.608 -2.157,0.203 -1.111,0 0,0 m 0,25.693 c 2.435,0 4.666,-0.416 6.696,-1.249 2.028,-0.833 3.78,-1.986 5.254,-3.46 1.474,-1.474 2.627,-3.235 3.46,-5.286 0.833,-2.051 1.249,-4.293 1.249,-6.727 0,-2.436 -0.416,-4.678 -1.249,-6.729 C 14.577,0.192 13.424,-1.569 11.95,-3.043 10.476,-4.517 8.724,-5.671 6.696,-6.503 4.666,-7.336 2.435,-7.752 0,-7.752 c -2.434,0 -4.667,0.416 -6.695,1.249 -2.03,0.832 -3.781,1.986 -5.255,3.46 -1.473,1.474 -2.626,3.235 -3.46,5.285 -0.832,2.051 -1.249,4.293 -1.249,6.729 0,2.434 0.417,4.676 1.249,6.727 0.834,2.051 1.987,3.812 3.46,5.286 1.474,1.474 3.225,2.627 5.255,3.46 2.028,0.833 4.261,1.249 6.695,1.249"
+       style="fill:#363e48;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,834.65777,1344.1107)"
+       clip-path="url(#clipPath9)" />
+    <path
+       id="path10"
+       d="m 0,0 h 7.881 v -4.357 h 0.512 c 0.385,0.769 0.898,1.473 1.539,2.114 0.64,0.64 1.355,1.198 2.146,1.675 0.79,0.475 1.643,0.86 2.563,1.153 0.918,0.293 1.826,0.439 2.723,0.439 1.11,0 2.06,-0.119 2.851,-0.356 0.79,-0.237 1.463,-0.546 2.018,-0.925 l -2.242,-7.496 c -0.513,0.256 -1.079,0.458 -1.698,0.608 -0.62,0.15 -1.378,0.225 -2.275,0.225 -1.153,0 -2.2,-0.226 -3.139,-0.677 -0.941,-0.45 -1.741,-1.085 -2.403,-1.9 -0.663,-0.816 -1.175,-1.772 -1.538,-2.867 -0.363,-1.095 -0.545,-2.286 -0.545,-3.574 V -31.396 H 0 Z"
+       style="fill:#363e48;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,863.1915,1311.2189)"
+       clip-path="url(#clipPath11)" />
+    <path
+       id="path12"
+       d="M 0,0 16.018,17.3 H 0.512 v 7.177 h 25.822 v -6.92 L 10.316,0.257 H 26.59 V -6.92 H 0 Z"
+       style="fill:#363e48;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,895.05737,1343.8543)"
+       clip-path="url(#clipPath13)" />
+    <path
+       id="path14"
+       d="M 0,0 V 8.609 H -8.65 Z"
+       style="fill:#363e48;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,964.38844,1303.3907)"
+       clip-path="url(#clipPath15)" />
+    <path
+       id="path16"
+       d="m 232.419,20.844 h 8.65 v 35.134 h -8.65 z"
+       style="fill:#363e48;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,642.9631,1380.8722)"
+       clip-path="url(#clipPath17)" />
+    <path
+       id="path18"
+       d="m 0,0 v 37.675 h -12.815 v 8.202 h 34.28 V 37.675 H 8.65 V 0 Z"
+       style="fill:#363e48;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,989.67484,1353.0809)"
+       clip-path="url(#clipPath19)" />
+    <path
+       id="path20"
+       d="m 0,0 14.796,-14.797 c 7.241,3.4 13.096,9.254 16.495,16.494 L 16.494,16.493 Z"
+       style="fill:#e77c1a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,706.55177,1346.4767)"
+       clip-path="url(#clipPath21)" />
+    <path
+       id="path22"
+       d="m 0,0 -0.505,0.505 -14.292,14.291 c -7.24,-3.399 -13.095,-9.253 -16.494,-16.494 l 14.797,-14.797 z"
+       style="fill:#2596dd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,703.66684,1303.1655)"
+       clip-path="url(#clipPath23)" />
+    <path
+       id="path24"
+       d="m 0,0 -14.638,-14.638 c 3.366,-6.967 9.021,-12.623 15.989,-15.989 l 14.638,14.639 z"
+       style="fill:#283fae;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,681.67457,1325.159)"
+       clip-path="url(#clipPath25)" />
+    <path
+       id="path26"
+       d="m 0,0 c -2.073,-4.416 -3.237,-9.343 -3.237,-14.544 0,-5.336 1.22,-10.387 3.395,-14.891 l 14.638,14.638 z"
+       style="fill:#2066be;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,661.94604,1305.4298)"
+       clip-path="url(#clipPath27)" />
+    <path
+       id="path28"
+       d="M 0,0 14.638,14.639 C 11.272,21.606 5.617,27.262 -1.351,30.628 L -15.989,15.99 Z"
+       style="fill:#ec9f05;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,728.54391,1324.4858)"
+       clip-path="url(#clipPath29)" />
+    <path
+       id="path30"
+       d="m 0,0 14.796,-14.796 c 2.073,4.416 3.237,9.344 3.237,14.544 0,5.336 -1.22,10.388 -3.395,14.891 z"
+       style="fill:#f5bb00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,728.54391,1324.4858)"
+       clip-path="url(#clipPath31)" />
   </g>
 </svg>

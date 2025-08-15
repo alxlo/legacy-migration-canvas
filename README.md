@@ -2,7 +2,7 @@
 
 Planning tools to avoid migration disasters by getting the basics right first.
 
-<img width="1024" height="722" alt="legacy-migration-canvas" src="https://github.com/user-attachments/assets/393e86e7-f960-418e-bcff-c782ae318b9d" />
+<img width="960" height="677" alt="Image of Legaycy Migration Canvas" src="legacy-migration-canvas.png" />
 
 ## Tools
 
