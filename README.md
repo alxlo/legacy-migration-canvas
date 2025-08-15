@@ -2,9 +2,11 @@
 
 Planning tools to avoid migration disasters by getting the basics right first.
 
+<img width="1024" height="722" alt="legacy-migration-canvas" src="https://github.com/user-attachments/assets/393e86e7-f960-418e-bcff-c782ae318b9d" />
+
 ## Tools
 
-- **Migration Strategy Canvas** - Figure out what you're actually trying to solve before writing code
+- **Legacy Migration Canvas** - Figure out what you're actually trying to solve before writing code
 - **Migration Checklist** - Don't forget the boring stuff that kills projects
 
 ## Why This Exists
