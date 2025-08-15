@@ -14,8 +14,6 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs65" />
   <sodipodi:namedview
      id="namedview65"
      pagecolor="#ffffff"
@@ -25,9 +23,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.5045661"
-     inkscape:cx="564.61461"
-     inkscape:cy="635.73146"
+     inkscape:zoom="1.28"
+     inkscape:cx="541.01563"
+     inkscape:cy="496.48438"
      inkscape:window-width="3840"
      inkscape:window-height="2123"
      inkscape:window-x="0"
@@ -35,6 +33,60 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg65"
      inkscape:document-units="mm" />
+  <defs
+     id="defs65">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
   <!-- Background and border -->
   <!-- Title Section -->
   <!-- Header fields -->
@@ -79,62 +131,58 @@
      font-weight="bold"
      fill="#4285f4"
      id="text1"
-     style="stroke-width:1.2547">Legacy Migration Canvas</text>
-  <g
-     id="g95"
-     transform="translate(47.937337)">
-    <rect
-       x="750.52911"
-       y="35.348751"
-       width="351.31668"
-       height="62.735119"
-       fill="#ffffff"
-       stroke="#cccccc"
-       id="rect2"
-       style="stroke-width:1.2547" />
-    <text
-       x="763.07617"
-       y="66.716309"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#888888"
-       id="text2"
-       style="stroke-width:1.2547">System Name:</text>
-    <rect
-       x="1114.3928"
-       y="35.348751"
-       width="175.65834"
-       height="62.735119"
-       fill="#ffffff"
-       stroke="#cccccc"
-       id="rect3"
-       style="stroke-width:1.2547" />
-    <text
-       x="1126.9398"
-       y="66.716309"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#888888"
-       id="text3"
-       style="stroke-width:1.2547">Team:</text>
-    <rect
-       x="1302.5981"
-       y="35.348751"
-       width="175.65834"
-       height="62.735119"
-       fill="#ffffff"
-       stroke="#cccccc"
-       id="rect4"
-       style="stroke-width:1.2547" />
-    <text
-       x="1315.1451"
-       y="66.716309"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#888888"
-       id="text4"
-       style="stroke-width:1.2547">Date:</text>
-  </g>
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:45.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4">Legacy Migration Canvas</text>
+  <rect
+     x="798.46643"
+     y="35.348751"
+     width="351.31668"
+     height="62.735119"
+     fill="#ffffff"
+     stroke="#cccccc"
+     id="rect2"
+     style="stroke-width:1.2547" />
+  <text
+     x="811.01349"
+     y="66.716309"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#888888"
+     id="text2"
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:17.33333363px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">System Name:</text>
+  <rect
+     x="1162.3302"
+     y="35.348751"
+     width="175.65834"
+     height="62.735119"
+     fill="#ffffff"
+     stroke="#cccccc"
+     id="rect3"
+     style="stroke-width:1.2547" />
+  <text
+     x="1174.8772"
+     y="66.716309"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#888888"
+     id="text3"
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:17.33333363px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Team:</text>
+  <rect
+     x="1350.5355"
+     y="35.348751"
+     width="175.65834"
+     height="62.735119"
+     fill="#ffffff"
+     stroke="#cccccc"
+     id="rect4"
+     style="stroke-width:1.2547" />
+  <text
+     x="1363.0825"
+     y="66.716309"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#888888"
+     id="text4"
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:17.33333363px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Date:</text>
   <g
      id="g79"
      transform="matrix(1.0633081,0,0,0.99995847,-3.8069767,0.02465547)"
@@ -228,7 +276,7 @@
      font-size="15.0564px"
      fill="#888888"
      id="text56"
-     style="stroke-width:1.2547">Legacy Migration Canvas v2.0 - based on arc42 Architecture Inception Canvas by Patrick Roos and arc42 Contributors - Attribution-ShareAlike 4.0 International</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Legacy Migration Canvas v3.0 - based on arc42 Architecture Inception Canvas by Patrick Roos and arc42 Contributors - Attribution-ShareAlike 4.0 International - Icons by https://lucide.dev/</text>
   <text
      x="237.71542"
      y="1092.5864"
@@ -246,13 +294,13 @@
      id="text58"
      style="stroke-width:1.2547" />
   <text
-     x="1208.4069"
+     x="1248.4069"
      y="1092.5864"
      font-family="Arial"
      font-size="15.0564px"
      fill="#888888"
      id="text58-6"
-     style="stroke-width:1.2547">Alexander Lorz - alexander@lorz-it.de 04/2025</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:&quot;Liberation Sans&quot;;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Alexander Lorz - alexander@lorz-it.de 08/2025</text>
   <text
      x="72.989822"
      y="160.81898"
@@ -261,50 +309,34 @@
      font-weight="bold"
      fill="#4285f4"
      id="text5"
-     style="stroke-width:1.2547">Business Case &amp; Value Proposition</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Business Case &amp; Value Proposition</text>
+  <text
+     x="72.912216"
+     y="183.91982"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text5-9"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1">Why are we doing this &amp; what do we gain?</tspan></text>
   <text
      x="72.989822"
-     y="192.18655"
+     y="210.18655"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text6"
-     style="stroke-width:1.2547">Describe the business drivers for the migration and specific business value to be delivered.</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Describe the business drivers for the migration and specific business value to be delivered.</text>
   <text
      x="72.989822"
-     y="217.28059"
+     y="235.28059"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text7"
-     style="stroke-width:1.2547">What problems will be solved and what new opportunities will be enabled?</text>
-  <g
-     id="g82"
-     transform="translate(66.736292)">
-    <circle
-       cx="1392.8118"
-       cy="202.32756"
-       r="37.641071"
-       fill="#ffffff"
-       stroke="#333333"
-       id="circle7"
-       style="stroke-width:1.2547" />
-    <path
-       d="m 1392.8118,192.28994 c -5.5458,0 -10.0377,4.49184 -10.0377,10.03762 0,5.54579 4.4919,10.03762 10.0377,10.03762 5.5457,0 10.0376,-4.49183 10.0376,-10.03762 0,-5.54578 -4.4919,-10.03762 -10.0376,-10.03762 z m 0,17.56584 c -4.1606,0 -7.5283,-3.36762 -7.5283,-7.52822 0,-4.16059 3.3677,-7.52821 7.5283,-7.52821 4.1605,0 7.5282,3.36762 7.5282,7.52821 0,4.1606 -3.3677,7.52822 -7.5282,7.52822 z"
-       fill="#333333"
-       id="path7"
-       style="stroke-width:0.0501881" />
-    <path
-       d="m 1392.8118,199.81816 c -1.3852,0 -2.5094,1.12421 -2.5094,2.5094 0,1.38519 1.1242,2.50941 2.5094,2.50941 1.3851,0 2.5094,-1.12422 2.5094,-2.50941 0,-1.38519 -1.1243,-2.5094 -2.5094,-2.5094 z"
-       fill="#333333"
-       id="path8"
-       style="stroke-width:0.0501881" />
-    <path
-       d="m 1392.8118,177.23351 c -13.857,0 -25.0941,11.23712 -25.0941,25.09405 0,13.85694 11.2371,25.09405 25.0941,25.09405 13.8569,0 25.094,-11.23711 25.094,-25.09405 0,-13.85693 -11.2371,-25.09405 -25.094,-25.09405 z m 0,45.16929 c -11.0916,0 -20.0753,-8.98367 -20.0753,-20.07524 0,-11.09157 8.9837,-20.07524 20.0753,-20.07524 11.0915,0 20.0752,8.98367 20.0752,20.07524 0,11.09157 -8.9837,20.07524 -20.0752,20.07524 z"
-       fill="#333333"
-       id="path9"
-       style="stroke-width:0.0501881" />
-  </g>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">What problems will be solved and what new opportunities will be enabled?</text>
   <text
      x="72.989822"
      y="323.9303"
@@ -313,187 +345,121 @@
      font-weight="bold"
      fill="#4285f4"
      id="text9"
-     style="stroke-width:1.2547">Current System Analysis</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Current System Analysis</text>
   <text
      x="72.989822"
-     y="355.29785"
+     y="375.29785"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text10"
-     style="stroke-width:1.2547">Key pain points and limitations</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Key pain points and limitations</text>
   <text
      x="72.989822"
-     y="380.39191"
+     y="400.39191"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text11"
-     style="stroke-width:1.2547">Technical debt assessment</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Technical debt assessment</text>
   <text
      x="72.989822"
-     y="405.48596"
+     y="425.48596"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text12"
-     style="stroke-width:1.2547">Components to keep, modify, or replace</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Components to keep, modify, or replace</text>
   <text
      x="72.989822"
-     y="430.58002"
+     y="450.58002"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text13"
-     style="stroke-width:1.2547">Current usage patterns and metrics</text>
-  <g
-     id="g80"
-     transform="translate(25.37859,0.67687988)">
-    <rect
-       x="436.85352"
-       y="298.83624"
-       width="62.735119"
-       height="62.735119"
-       fill="#ffffff"
-       stroke="#cccccc"
-       rx="6.2735119"
-       ry="6.2735119"
-       id="rect13"
-       style="stroke-width:1.2547" />
-    <path
-       d="m 488.29632,310.12858 h -40.15048 c -2.77038,0 -5.01881,2.24843 -5.01881,5.01881 v 30.11286 c 0,2.77038 2.24843,5.01881 5.01881,5.01881 h 40.15048 c 2.77038,0 5.01881,-2.24843 5.01881,-5.01881 v -30.11286 c 0,-2.77038 -2.24843,-5.01881 -5.01881,-5.01881 z m 2.5094,35.13167 c 0,1.38519 -1.12421,2.50941 -2.5094,2.50941 h -40.15048 c -1.38519,0 -2.50941,-1.12422 -2.50941,-2.50941 v -30.11286 c 0,-1.38519 1.12422,-2.5094 2.50941,-2.5094 h 40.15048 c 1.38519,0 2.5094,1.12421 2.5094,2.5094 z"
-       fill="#333333"
-       id="path13"
-       style="stroke-width:0.0501881" />
-    <path
-       d="m 453.16465,320.1662 h 5.01881 v 2.50941 h -5.01881 z m 0,5.01881 h 5.01881 v 2.50941 h -5.01881 z m 0,5.01881 h 5.01881 v 2.50941 h -5.01881 z m 0,5.01881 h 5.01881 v 2.5094 h -5.01881 z"
-       fill="#333333"
-       id="path14"
-       style="stroke-width:0.0501881" />
-    <path
-       d="m 460.69286,320.1662 h 22.58465 v 2.50941 h -22.58465 z m 0,5.01881 h 22.58465 v 2.50941 h -22.58465 z m 0,5.01881 h 22.58465 v 2.50941 h -22.58465 z m 0,5.01881 h 22.58465 v 2.5094 h -22.58465 z"
-       fill="#333333"
-       id="path15"
-       style="stroke-width:0.0501881" />
-  </g>
-  <g
-     id="g94"
-     transform="translate(28.198433)">
-    <text
-       x="537.22974"
-       y="323.9303"
-       font-family="Arial"
-       font-size="27.6035px"
-       font-weight="bold"
-       fill="#4285f4"
-       id="text15"
-       style="stroke-width:1.2547">Stakeholder Needs</text>
-    <text
-       x="537.22974"
-       y="355.29785"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text16"
-       style="stroke-width:1.2547">End user requirements and pain points</text>
-    <text
-       x="537.22974"
-       y="380.39191"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text17"
-       style="stroke-width:1.2547">Business department requirements</text>
-    <text
-       x="537.22974"
-       y="405.48596"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text18"
-       style="stroke-width:1.2547">IT operations and support needs</text>
-    <text
-       x="537.22974"
-       y="430.58002"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text19"
-       style="stroke-width:1.2547">Compliance and security requirements</text>
-  </g>
-  <g
-     id="g92"
-     transform="translate(54.516971)">
-    <circle
-       cx="931.98688"
-       cy="332.26959"
-       r="37.641071"
-       fill="#ffffff"
-       stroke="#333333"
-       id="circle19"
-       style="stroke-width:1.2547" />
-    <g
-       transform="matrix(0.0501881,0,0,0.0501881,906.89284,307.17555)"
-       id="g21">
-      <path
-         d="M 500,0 C 224,0 0,224 0,500 c 0,276 224,500 500,500 276,0 500,-224 500,-500 C 1000,224 776,0 500,0 Z m 0,960 C 246,960 40,754 40,500 40,246 246,40 500,40 754,40 960,246 960,500 960,754 754,960 500,960 Z"
-         fill="#333333"
-         id="path19" />
-      <path
-         d="m 500,300 c 55.2,0 100,44.8 100,100 0,55.2 -44.8,100 -100,100 -55.2,0 -100,-44.8 -100,-100 0,-55.2 44.8,-100 100,-100 z"
-         fill="#333333"
-         id="path20" />
-      <path
-         d="M 680,550 H 320 c -11,0 -20,9 -20,20 0,99 67,190 200,190 133,0 200,-91 200,-190 0,-11 -9,-20 -20,-20 z"
-         fill="#333333"
-         id="path21" />
-    </g>
-  </g>
-  <g
-     id="g88"
-     transform="translate(61.096606)">
-    <text
-       x="1001.4696"
-       y="323.9303"
-       font-family="Arial"
-       font-size="27.6035px"
-       font-weight="bold"
-       fill="#4285f4"
-       id="text21"
-       style="stroke-width:1.2547">Organizational Constraints</text>
-    <text
-       x="1001.4696"
-       y="355.29785"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text22"
-       style="stroke-width:1.2547">Timeline and budget limitations</text>
-    <text
-       x="1001.4696"
-       y="380.39191"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text23"
-       style="stroke-width:1.2547">Available resources and expertise</text>
-    <text
-       x="1001.4696"
-       y="405.48596"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text24"
-       style="stroke-width:1.2547">Required governance and compliance</text>
-    <text
-       x="1001.4696"
-       y="430.58002"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text25"
-       style="stroke-width:1.2547">Business continuity requirements</text>
-  </g>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Current usage patterns and metrics</text>
+  <text
+     x="565.42816"
+     y="323.86877"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text15"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Stakeholder Needs</text>
+  <text
+     x="565.42816"
+     y="375.29785"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text16"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">End user requirements and pain points</text>
+  <text
+     x="565.42816"
+     y="400.39191"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text17"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Business department requirements</text>
+  <text
+     x="565.42816"
+     y="425.48596"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text18"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">IT operations and support needs</text>
+  <text
+     x="565.42816"
+     y="450.58002"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text19"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Compliance and security requirements</text>
+  <text
+     x="1062.5662"
+     y="323.86877"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text21"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Organizational Constraints</text>
+  <text
+     x="1062.5662"
+     y="375.29785"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text22"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Timeline and budget limitations</text>
+  <text
+     x="1062.5662"
+     y="400.39191"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text23"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Available resources and expertise</text>
+  <text
+     x="1062.5662"
+     y="425.48596"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text24"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Required governance and compliance</text>
+  <text
+     x="1062.5662"
+     y="450.58002"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text25"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Business continuity requirements</text>
   <text
      x="72.989822"
      y="612.51184"
@@ -502,195 +468,113 @@
      font-weight="bold"
      fill="#4285f4"
      id="text30"
-     style="stroke-width:1.2547">Quality Goals</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Quality Goals</text>
   <text
      x="72.989822"
-     y="643.87939"
+     y="663.87939"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text31"
-     style="stroke-width:1.2547">The three most important quality goals for</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">The top 3-5 most important quality goals for</text>
   <text
      x="72.989822"
-     y="668.97345"
+     y="688.97345"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text32"
-     style="stroke-width:1.2547">the migration, addressing key stakeholder</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">the migration, addressing key stakeholder</text>
   <text
      x="72.989822"
-     y="694.0675"
+     y="714.0675"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text33"
-     style="stroke-width:1.2547">concerns and business drivers.</text>
-  <g
-     id="g81"
-     transform="translate(25.37859)">
-    <circle
-       cx="465.24521"
-       cy="622.51898"
-       r="37.641071"
-       fill="#ffffff"
-       stroke="#333333"
-       id="circle33"
-       style="stroke-width:1.2547" />
-    <g
-       transform="matrix(0.0501881,0,0,0.0501881,440.15116,597.42496)"
-       id="g33">
-      <path
-         d="m 500,0 114,350 h 386 L 688,576 807,940 500,717 193,940 312,576 0,350 h 386 z"
-         fill="none"
-         stroke="#333333"
-         stroke-width="40"
-         id="path33" />
-    </g>
-  </g>
-  <g
-     id="g93"
-     transform="translate(28.198433)">
-    <text
-       x="537.22974"
-       y="612.51184"
-       font-family="Arial"
-       font-size="27.6035px"
-       font-weight="bold"
-       fill="#4285f4"
-       id="text34"
-       style="stroke-width:1.2547">Technical Constraints</text>
-    <text
-       x="537.22974"
-       y="643.87939"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text35"
-       style="stroke-width:1.2547">Legacy interfaces that must be maintained</text>
-    <text
-       x="537.22974"
-       y="668.97345"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text36"
-       style="stroke-width:1.2547">Technology stack requirements or limitations</text>
-    <text
-       x="537.22974"
-       y="694.0675"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text37"
-       style="stroke-width:1.2547">Integration points with external systems</text>
-    <text
-       x="537.22974"
-       y="719.16156"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text38"
-       style="stroke-width:1.2547">Infrastructure and deployment constraints</text>
-  </g>
-  <g
-     id="g91"
-     transform="translate(54.516971,4.165802)">
-    <circle
-       cx="931.98688"
-       cy="618.34937"
-       r="37.641071"
-       fill="#ffffff"
-       stroke="#333333"
-       id="circle38"
-       style="stroke-width:1.2547" />
-    <g
-       transform="matrix(0.0501881,0,0,0.0501881,906.89284,593.25531)"
-       id="g41">
-      <path
-         d="m 500,200 c -33.1,0 -60,26.9 -60,60 v 200 c 0,33.1 26.9,60 60,60 33.1,0 60,-26.9 60,-60 V 260 c 0,-33.1 -26.9,-60 -60,-60 z"
-         fill="#333333"
-         id="path38" />
-      <path
-         d="m 860,500 c 0,-33.1 -26.9,-60 -60,-60 H 640 c -33.1,0 -60,26.9 -60,60 0,33.1 26.9,60 60,60 h 160 c 33.1,0 60,-26.9 60,-60 z"
-         fill="#333333"
-         id="path39" />
-      <path
-         d="m 500,640 c -33.1,0 -60,26.9 -60,60 v 40 c 0,33.1 26.9,60 60,60 33.1,0 60,-26.9 60,-60 v -40 c 0,-33.1 -26.9,-60 -60,-60 z"
-         fill="#333333"
-         id="path40" />
-      <path
-         d="m 380,500 c 0,-33.1 -26.9,-60 -60,-60 H 200 c -33.1,0 -60,26.9 -60,60 0,33.1 26.9,60 60,60 h 120 c 33.1,0 60,-26.9 60,-60 z"
-         fill="#333333"
-         id="path41" />
-    </g>
-  </g>
-  <g
-     id="g89"
-     transform="translate(61.096606)">
-    <text
-       x="1001.4696"
-       y="643.87939"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text42"
-       style="stroke-width:1.2547">Migration approach (big bang, incremental, ...)</text>
-    <g
-       id="g87">
-      <text
-         x="1001.4696"
-         y="612.51184"
-         font-family="Arial"
-         font-size="27.6035px"
-         font-weight="bold"
-         fill="#4285f4"
-         id="text41"
-         style="stroke-width:1.2547">Migration Strategy</text>
-      <text
-         x="1001.4696"
-         y="668.97345"
-         font-family="Arial"
-         font-size="17.5658px"
-         fill="#666666"
-         id="text43"
-         style="stroke-width:1.2547">Phasing and prioritization approach</text>
-      <text
-         x="1001.4696"
-         y="694.0675"
-         font-family="Arial"
-         font-size="17.5658px"
-         fill="#666666"
-         id="text44"
-         style="stroke-width:1.2547">Testing and validation strategy</text>
-      <text
-         x="1001.4696"
-         y="719.16156"
-         font-family="Arial"
-         font-size="17.5658px"
-         fill="#666666"
-         id="text45"
-         style="stroke-width:1.2547">Rollout and transition approach</text>
-    </g>
-  </g>
-  <g
-     id="g84"
-     transform="translate(81.775457,4.165802)">
-    <circle
-       cx="1398.7134"
-       cy="618.35699"
-       r="37.641071"
-       fill="#ffffff"
-       stroke="#333333"
-       id="circle45"
-       style="stroke-width:1.2547" />
-    <path
-       d="m 1413.7698,612.08346 -15.0564,-15.05643 -15.0564,15.05643 2.5094,2.50941 10.0376,-10.03762 v 35.13166 h 5.0188 v -35.13166 l 10.0376,10.03762 z"
-       fill="#333333"
-       id="path45"
-       style="stroke-width:0.0501881" />
-  </g>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">concerns and business drivers.</text>
+  <text
+     x="565.42816"
+     y="612.51184"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text34"
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Technical Constraints</text>
+  <text
+     x="565.42816"
+     y="663.87939"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text35"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Legacy interfaces that must be maintained</text>
+  <text
+     x="565.42816"
+     y="688.97345"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text36"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Technology stack requirements or limitations</text>
+  <text
+     x="565.42816"
+     y="714.0675"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text37"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Integration points with external systems</text>
+  <text
+     x="565.42816"
+     y="739.16156"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text38"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Infrastructure and deployment constraints</text>
+  <text
+     x="1062.5662"
+     y="663.87939"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text42"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Migration approach (big bang, incremental, ...)</text>
+  <text
+     x="1062.5662"
+     y="612.51184"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text41"
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Migration Strategy</text>
+  <text
+     x="1062.5662"
+     y="688.97345"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text43"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Phasing and prioritization approach</text>
+  <text
+     x="1062.5662"
+     y="714.0675"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text44"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Testing and validation strategy</text>
+  <text
+     x="1062.5662"
+     y="739.16156"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text45"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Rollout and transition approach</text>
   <text
      x="72.989822"
      y="901.09338"
@@ -699,179 +583,372 @@
      font-weight="bold"
      fill="#4285f4"
      id="text46"
-     style="stroke-width:1.2547">Key Architectural Decisions</text>
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Key Architectural Decisions</text>
   <text
      x="72.989822"
-     y="932.46094"
+     y="952.46094"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text47"
-     style="stroke-width:1.2547">Critical architectural decisions for the migration,</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Critical architectural decisions for the migration,</text>
   <text
      x="72.989822"
-     y="957.55499"
+     y="977.55499"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text48"
-     style="stroke-width:1.2547">including technology choices, patterns, approach</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">including technology choices, patterns, approach</text>
   <text
      x="72.989822"
-     y="982.64905"
+     y="1002.649"
      font-family="Arial"
      font-size="17.5658px"
      fill="#666666"
      id="text49"
-     style="stroke-width:1.2547">to data migration, and scalability considerations.</text>
-  <g
-     id="g96"
-     transform="translate(41.357702,2.8463975)">
-    <circle
-       cx="707.80829"
-       cy="906.93091"
-       r="37.641071"
-       fill="#ffffff"
-       stroke="#333333"
-       id="circle49"
-       style="stroke-width:1.2547" />
-    <g
-       transform="matrix(0.0501881,0,0,0.0501881,682.71426,881.83687)"
-       id="g50">
-      <path
-         d="M 900,200 H 100 C 44.8,200 0,244.8 0,300 v 400 c 0,55.2 44.8,100 100,100 h 800 c 55.2,0 100,-44.8 100,-100 V 300 c 0,-55.2 -44.8,-100 -100,-100 z m 50,500 c 0,27.6 -22.4,50 -50,50 H 100 C 72.4,750 50,727.6 50,700 V 300 c 0,-27.6 22.4,-50 50,-50 h 800 c 27.6,0 50,22.4 50,50 z"
-         fill="#333333"
-         id="path49" />
-      <path
-         d="m 400,400 -100,100 100,100 50,-50 -50,-50 50,-50 z m 150,0 -50,50 50,50 -50,50 100,100 100,-100 z"
-         fill="#333333"
-         id="path50" />
-    </g>
-  </g>
-  <g
-     id="g90"
-     transform="translate(44.177546)">
-    <text
-       x="775.62317"
-       y="901.09338"
-       font-family="Arial"
-       font-size="27.6035px"
-       font-weight="bold"
-       fill="#4285f4"
-       id="text50"
-       style="stroke-width:1.2547">Risks &amp; Mitigation</text>
-    <text
-       x="775.62317"
-       y="932.46094"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text51"
-       style="stroke-width:1.2547">Identified technical risks and their mitigation strategies</text>
-    <text
-       x="775.62317"
-       y="957.55499"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text52"
-       style="stroke-width:1.2547">Business continuity risks and contingency plans</text>
-    <text
-       x="775.62317"
-       y="982.64905"
-       font-family="Arial"
-       font-size="17.5658px"
-       fill="#666666"
-       id="text53"
-       style="stroke-width:1.2547">Data migration risks and verification strategies</text>
-  </g>
-  <g
-     id="g83"
-     transform="translate(88.324429,2.8463975)">
-    <circle
-       cx="1393.725"
-       cy="907.76483"
-       r="37.641071"
-       fill="#ffffff"
-       stroke="#333333"
-       id="circle53"
-       style="stroke-width:1.2547" />
-    <g
-       transform="matrix(0.0501881,0,0,0.0501881,1368.6309,881.18019)"
-       id="g55">
-      <path
-         d="M 500,50 50,850 h 900 z m 0,100 350,600 H 150 Z"
-         fill="#333333"
-         id="path53" />
-      <path
-         d="m 500,650 c -27.6,0 -50,22.4 -50,50 0,27.6 22.4,50 50,50 27.6,0 50,-22.4 50,-50 0,-27.6 -22.4,-50 -50,-50 z"
-         fill="#333333"
-         id="path54" />
-      <path
-         d="M 500,350 V 550"
-         stroke="#333333"
-         stroke-width="100"
-         stroke-linecap="round"
-         id="path55" />
-    </g>
-  </g>
-  <g
-     id="g86"
-     transform="translate(81.744795,0.67687988)">
-    <circle
-       cx="1397.1835"
-       cy="331.59271"
-       r="37.641071"
-       fill="#ffffff"
-       stroke="#333333"
-       id="circle45-7"
-       style="stroke-width:1.2547" />
-    <g
-       id="g85">
-      <g
-         transform="matrix(0.07528214,0,0,0.07528214,1397.0607,317.22079)"
-         id="g71">
-        <rect
-           x="-200"
-           y="-200"
-           width="400"
-           height="200"
-           fill="none"
-           stroke="#333333"
-           stroke-width="20"
-           id="rect68" />
-        <rect
-           x="-200"
-           y="100"
-           width="150"
-           height="200"
-           fill="none"
-           stroke="#333333"
-           stroke-width="20"
-           id="rect69" />
-        <rect
-           x="50"
-           y="100"
-           width="150"
-           height="200"
-           fill="none"
-           stroke="#333333"
-           stroke-width="20"
-           id="rect70" />
-        <rect
-           x="-75"
-           y="400"
-           width="150"
-           height="200"
-           fill="none"
-           stroke="#333333"
-           stroke-width="20"
-           id="rect71" />
-      </g>
-    </g>
-  </g>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">to data migration, and scalability considerations.</text>
+  <text
+     x="819.80072"
+     y="901.09338"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text50"
+     style="stroke-width:1.2547;-inkscape-font-specification:&quot;Liberation Sans&quot;;font-family:&quot;Liberation Sans&quot;;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:28.00000048px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Risks &amp; Mitigation</text>
+  <text
+     x="819.80072"
+     y="952.46094"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text51"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Identified technical risks and their mitigation strategies</text>
+  <text
+     x="819.80072"
+     y="977.55499"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text52"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Business continuity risks and contingency plans</text>
+  <text
+     x="819.80072"
+     y="1002.649"
+     font-family="Arial"
+     font-size="17.5658px"
+     fill="#666666"
+     id="text53"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Data migration risks and verification strategies</text>
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layer 1" />
+  <text
+     x="73.501953"
+     y="346.94226"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text5-9-9"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1-7">What we're working with</tspan></text>
+  <text
+     x="566.78882"
+     y="346.76849"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text5-9-9-3"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1-7-8">Who's affected &amp; what they actually need</tspan></text>
+  <text
+     x="1062.7645"
+     y="347.116"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text5-9-9-3-9"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1-7-8-6">Reality check</tspan></text>
+  <text
+     x="75.049789"
+     y="636.02045"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text5-9-9-8"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1-7-9">What matters most</tspan></text>
+  <text
+     x="568.33667"
+     y="635.84668"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text5-9-9-3-7"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1-7-8-7">Technical stuff we can't change</tspan></text>
+  <text
+     x="72.533752"
+     y="923.51215"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text5-9-9-8-0"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1-7-9-3">Critical decisions that shape the migration</tspan></text>
+  <text
+     x="820.37909"
+     y="923.33838"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text5-9-9-3-7-0"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1-7-8-7-9">What could go wrong &amp; how we'll handle it</tspan></text>
+  <text
+     x="1064.3124"
+     y="636.19421"
+     font-family="Arial"
+     font-size="27.6035px"
+     font-weight="bold"
+     fill="#4285f4"
+     id="text5-9-9-3-9-6"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4285f4;stroke-width:1.2547"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1-7-8-6-4">How we're going to do this</tspan></text>
+  <g
+     id="g9"
+     transform="matrix(0.84181236,0,0,0.84181236,2179.2102,195.38314)">
+    <rect
+       x="-863.68024"
+       y="141.49529"
+       width="69.17141"
+       height="27.668564"
+       rx="3.4585705"
+       id="rect1-1"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -811.8017,169.16388 v 24.20999"
+       id="path1-0"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -846.38741,169.16388 v 24.20999"
+       id="path2-3"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -811.8017,131.11961 v 10.37571"
+       id="path3-4"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -846.38741,131.11961 v 10.37571"
+       id="path4"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -836.0117,169.16388 -26.63099,-26.63099"
+       id="path5"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -822.17742,141.49532 26.631,26.63099"
+       id="path6"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -842.92884,141.49532 27.66857,27.66856"
+       id="path7-0"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g6"
+     transform="matrix(0.84181236,0,0,0.84181236,44.09339,83.06821)">
+    <circle
+       cx="1706.3306"
+       cy="100.33062"
+       r="34.585705"
+       id="circle1-5"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       cx="1706.3306"
+       cy="100.33062"
+       r="20.751423"
+       id="circle2-0"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       cx="1706.3306"
+       cy="100.33062"
+       r="6.917141"
+       id="circle3-2"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g14"
+     transform="translate(844.8841,318.31251)">
+    <path
+       d="m -347.52001,271.41855 a 1.5430777,1.5430777 0 0 1 2.7659,0 l 6.72548,13.62277 a 6.1810453,6.1810453 0 0 0 4.64379,3.3773 l 15.04065,2.20107 a 1.5430777,1.5430777 0 0 1 0.85597,2.63196 l -10.87724,10.59192 a 6.1810453,6.1810453 0 0 0 -1.77891,5.46774 l 2.56791,14.96494 a 1.5430777,1.5430777 0 0 1 -2.24474,1.63042 l -13.44515,-7.06904 a 6.1781338,6.1781338 0 0 0 -5.74432,0 l -13.44225,7.06904 a 1.5430777,1.5430777 0 0 1 -2.24183,-1.63042 l 2.565,-14.96203 a 6.1781338,6.1781338 0 0 0 -1.77891,-5.47065 l -10.87724,-10.58901 a 1.5430777,1.5430777 0 0 1 0.85597,-2.63778 l 15.03773,-2.19816 a 6.1781338,6.1781338 0 0 0 4.64962,-3.3773 z"
+       id="path1"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g8"
+     transform="matrix(0.84181236,0,0,0.84181236,1789.3609,-41.2602)">
+    <path
+       d="m -942.03853,476.97662 v -6.91714 a 13.834282,13.834282 0 0 0 -13.83429,-13.83428 h -20.75142 a 13.834282,13.834282 0 0 0 -13.83428,13.83428 v 6.91714"
+       id="path1-9"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -942.03853,415.16505 a 13.834282,13.834282 0 0 1 0,26.78317"
+       id="path2"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -921.28711,476.97662 v -6.91714 a 13.834282,13.834282 0 0 0 -10.37571,-13.38467"
+       id="path3"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       cx="-966.24847"
+       cy="428.55664"
+       r="13.834282"
+       id="circle3-0"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g7"
+     transform="matrix(0.84181236,0,0,0.84181236,1210.1542,373.06932)">
+    <path
+       d="m -844.00968,-46.132132 6.91714,-8.646426 -6.91714,-8.646427"
+       id="path1-8"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -816.34111,-20.192853 -14.87186,-14.871854"
+       id="path2-1"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -857.84396,-63.424985 -6.91714,8.646427 6.91714,8.646426"
+       id="path3-3"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       cx="-850.92676"
+       cy="-54.778591"
+       r="27.668564"
+       id="circle3-1"
+       style="fill:none;stroke:#010101;stroke-width:3.48984;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g13"
+     transform="translate(1577.3957,-25.94966)">
+    <path
+       d="m -594.04269,654.2095 -1.11509,2.68728"
+       id="path1-6"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -587.35796,654.2095 a 8.735321,8.735321 0 1 0 -6.68473,-16.14118 l -1.11509,-2.68728"
+       id="path2-98"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -587.35796,638.06832 1.11509,-2.68728"
+       id="path3-7"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -586.24577,656.8997 -1.11219,-2.6902 a 8.735321,8.735321 0 1 1 -6.68473,-16.14118"
+       id="path4-2"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -582.62973,642.79654 2.68728,-1.11509"
+       id="path5-8"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -582.62973,649.48127 2.68728,1.11509"
+       id="path6-2"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -612.53629,640.31598 h -1.45574 a 5.8229348,5.8229348 0 0 1 -5.82299,-5.82294 v -11.64587 a 5.8229348,5.8229348 0 0 1 5.82299,-5.82293 h 46.58345 a 5.8229348,5.8229348 0 0 1 5.82293,5.82293 v 11.64587 a 5.8229348,5.8229348 0 0 1 -5.82293,5.82294 h -1.45574"
+       id="path7-9"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -612.53629,651.96184 h -1.45574 a 5.8229348,5.8229348 0 0 0 -5.82299,5.82294 v 11.64587 a 5.8229348,5.8229348 0 0 0 5.82299,5.82294 h 46.58345 a 5.8229348,5.8229348 0 0 0 5.82293,-5.82294 v -11.64587 a 5.8229348,5.8229348 0 0 0 -5.82293,-5.82294 h -1.45574"
+       id="path8-9"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -608.16913,663.60771 h 0.0295"
+       id="path9-6"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -608.16913,628.67011 h 0.0295"
+       id="path10-0"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -598.7709,642.79654 -2.68729,-1.11509"
+       id="path11-2"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -598.7709,649.48127 -2.68729,1.11509"
+       id="path12-7"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g15"
+     transform="translate(1256.25,106.25)">
+    <path
+       d="m -509.17923,806.26962 -24.40101,24.39809 a 6.1771847,6.1771847 0 0 1 -8.73731,-8.7344 l 24.40973,-24.40101"
+       id="path1-42"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -503.3563,815.00402 17.4688,-17.4688"
+       id="path2-96"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -487.34322,798.99095 -23.29175,-23.29174"
+       id="path3-10"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -526.64804,791.71228 17.46881,-17.46881"
+       id="path4-4"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -525.1923,790.25655 23.29173,23.29174"
+       id="path5-2"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g16"
+     transform="translate(1567.1157,-116.67354)">
+    <path
+       d="m -61.599326,1042.0984 -23.291736,-40.7604 a 5.8229348,5.8229348 0 0 0 -10.131902,0 l -23.291746,40.7604 a 5.8229348,5.8229348 0 0 0 5.09507,8.7345 h 46.583481 a 5.8229348,5.8229348 0 0 0 5.036833,-8.7345"
+       id="path1-4"
+       style="fill:none;stroke:#010101;stroke-width:2.94242;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -89.927903,1015.8953 v 11.6459"
+       id="path2-4"
+       style="fill:none;stroke:#010101;stroke-width:2.94242;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -89.927903,1039.187 h 0.02913"
+       id="path3-9"
+       style="fill:none;stroke:#010101;stroke-width:2.94242;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g12"
+     transform="translate(1793.7645,-340.37321)">
+    <path
+       d="m -322.84529,963.48883 a 2.9114674,2.9114674 0 0 0 -2.9115,-2.91141 h -8.5568 a 2.9114674,2.9114674 0 0 1 -2.1836,-5.27269 l 19.90279,-19.89986 a 3.5141412,3.5141412 0 0 1 4.96988,0 l 19.89988,19.89986 a 2.9114674,2.9114674 0 0 1 -2.18361,5.27269 h -8.5568 a 2.9114674,2.9114674 0 0 0 -2.91147,2.91141 v 5.82298 a 2.9114674,2.9114674 0 0 1 -2.91146,2.91141 h -11.64587 a 2.9114674,2.9114674 0 0 1 -2.91144,-2.91141 z"
+       id="path1-93"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m -322.84529,983.8691 h 17.46877"
+       id="path2-6"
+       style="fill:none;stroke:#010101;stroke-width:2.93779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
 </svg>
