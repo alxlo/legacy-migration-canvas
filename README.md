@@ -22,3 +22,10 @@ Keep updating the canvas as you learn more.
 ## License
 
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+
+## Generate
+
+'''
+asciidoctor-pdf -a lang-en -a pdf-theme=themes/migration-checklist-theme.yml checklist.adoc -o checklist_EN.pdf
+'''
