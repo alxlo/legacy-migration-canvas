@@ -81,7 +81,7 @@ admonition:
     font_style: normal
     font_size: 9
     font_color: 718096
-blockquote:
+quote:
   font_color: 555555
   font_size: 10.5
   border_color: e2e8f0
@@ -126,14 +126,12 @@ link:
 list:
   indent: 18
   item_spacing: 7.5
+  marker_font_color: 718096
 description_list:
   term_font_style: bold
   term_spacing: 3.75
   description_indent: 12
-outline_list:
-  indent: 18
-  item_spacing: 7.5
-  marker_font_color: 718096
+
 table:
   background_color: ffffff
   border_color: dddddd
@@ -168,12 +166,6 @@ header:
   line_height: 1
   padding: [5, 1, 0, 1]
   vertical_align: top
-  recto:
-    right:
-      content: '{document-title} | {page-number}'
-  verso:
-    left:
-      content: '{document-title} | {page-number}'
 footer:
   font_size: 9.35
   font_color: 333333
