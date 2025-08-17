@@ -23,9 +23,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.28"
-     inkscape:cx="1111.7188"
-     inkscape:cy="657.03125"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="815.93493"
+     inkscape:cy="858.47183"
      inkscape:window-width="3840"
      inkscape:window-height="2123"
      inkscape:window-x="0"
@@ -509,12 +509,20 @@
   </g>
   <text
      x="58.77494"
-     y="1092.5864"
+     y="1086.5864"
      font-family="Arial"
      font-size="15.0564px"
      fill="#888888"
      id="text56"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Legacy Migration Canvas v3.1 - based on arc42 Architecture Inception Canvas by Patrick Roos and arc42 Contributors - Attribution-ShareAlike 4.0 International - Icons by https://lucide.dev/</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547"><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="58.77494"
+       y="1086.5864">Legacy Migration Canvas v3.1 - based on arc42 Architecture Inception Canvas by Patrick Roos and arc42 Contributors</tspan><tspan
+       sodipodi:role="line"
+       id="tspan3"
+       x="58.77494"
+       y="1102.4198">Attribution-ShareAlike 4.0 International - Icons by https://lucide.dev/</tspan></text>
   <text
      x="237.71542"
      y="1092.5864"
@@ -532,13 +540,23 @@
      id="text58"
      style="stroke-width:1.2547" />
   <text
-     x="1192.4069"
-     y="1092.5864"
+     x="1462.2732"
+     y="1086.5864"
      font-family="Arial"
      font-size="15.0564px"
      fill="#888888"
      id="text58-6"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547">Alexander Lorz - alexander@lorz-it.de 08/2025</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.2547"><tspan
+       sodipodi:role="line"
+       id="tspan4"
+       x="1462.2732"
+       y="1086.5864"
+       style="text-align:end;text-anchor:end">Alexander Lorz - alexander@lorz-it.de 08/2025</tspan><tspan
+       sodipodi:role="line"
+       id="tspan5"
+       x="1462.2732"
+       y="1102.4198"
+       style="text-align:end;text-anchor:end">https://github.com/alxlo/legacy-migration-canvas</tspan></text>
   <text
      x="72.989822"
      y="160.81898"
@@ -1191,7 +1209,7 @@
   </g>
   <g
      id="g1"
-     transform="matrix(0.14343905,0,0,0.14343905,1380.3931,897.40621)">
+     transform="matrix(0.14343905,0,0,0.14343905,1380.3931,901.19703)">
     <path
        id="path6-8"
        d="m 0,0 h 8.65 v -37.676 h 19.414 v -8.201 H 0 Z"
@@ -1249,7 +1267,7 @@
     <path
        id="path24"
        d="m 0,0 -14.638,-14.638 c 3.366,-6.967 9.021,-12.623 15.989,-15.989 l 14.638,14.639 z"
-       style="fill:#283fae;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:1"
+       style="opacity:1;fill:#283fae;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1.3333333,0,0,-1.3333333,681.67457,1325.159)"
        clip-path="url(#clipPath25)" />
     <path
