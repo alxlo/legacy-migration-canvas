@@ -1,6 +1,7 @@
-= Legacy Migration Checklist v3.0                            
+= Legacy Migration Checklist v{checklist-version}                            
 Alexander Lorz (c) 2025 - Lorz IT
-Version 3.0, 2025-08-17                                             
+:checklist-version: 3.1
+Version {checklist-version}, 2025-08-17                                             
 :icons: font
 
 
@@ -61,20 +62,25 @@ endif::[]
 
 * [ ] 1.2 *P1* Have we identified specific customer/user pain points this migration will address? What are they?
 
-* [ ] 1.3 *P1* Do we understand how this migration supports the company's long-term strategy?
+* [ ] 1.3 *P1* Have we conducted a neutral assessment of the current system's strengths and weaknesses before defining a specific migration approach?
 
-* [ ] 1.4 *P1* Have we identified new business capabilities that will be enabled by the migration?
+* [ ] 1.4 *P1* Do we understand how a potential migration could support the company's long-term strategy?
 
-* [ ] 1.5 *P1* Have we aligned with different stakeholders on their specific migration objectives (revenue generation, operational efficiency, risk reduction)?
+* [ ] 1.5 *P1* Have we identified new business capabilities that will be enabled by the migration?
 
-* [ ] 1.6 *P2* Have we identified product lines or features that are unprofitable and could be discontinued rather than migrated?
+* [ ] 1.6 *P1* Have we aligned with different stakeholders on their specific migration objectives (revenue generation, operational efficiency, risk reduction)?
 
-* [ ] 1.7 *P2* Have we quantified potential time/cost savings for the business and customers?
+* [ ] 1.7 *P2* Have we identified product lines or features that are unprofitable and could be discontinued rather than migrated?
 
-* [ ] 1.8 *P2* Do we have metrics in place to measure business value before and after the migration?
+* [ ] 1.8 *P2* Have we quantified potential time/cost savings for the business and customers?
 
-* [ ] 1.9 *P2* Have we secured executive sponsorship with alignment on business objectives?
+* [ ] 1.9 *P2* Do we have metrics in place to measure business value before and after the migration?
 
+* [ ] 1.10 *P2* Have we considered using structured goal-setting frameworks like OKRs to align migration objectives with measurable business outcomes?
+
+NOTE: OKRs (Objectives and Key Results) connect high-level business objectives with specific, measurable key results that can be tracked throughout the migration.
+
+* [ ] 1.11 *P2* Have we secured executive sponsorship with alignment on business objectives?
 
 > **Facilitator Note:** Focus on tangible business value, not just "technical debt reduction." Help the team think like product owners, not just engineers.
 
@@ -94,21 +100,23 @@ endif::[]
 
 * [ ] 2.5 *P2* Do we understand integration points with other systems and their migration impacts?
 
-* [ ] 2.6 *P2* Have we identified technical debt that should be addressed during migration?
+* [ ] 2.6 *P2* Have we analyzed current operations, monitoring, and support processes for the legacy system? 
 
-* [ ] 2.7 *P2* Have we evaluated security risks in both the legacy and target systems?
+* [ ] 2.7 *P2* Have we identified technical debt that should be addressed during migration?
 
-* [ ] 2.8 *P2* Have we traced data flows to original sources rather than assuming the legacy system is the source of truth?
+* [ ] 2.8 *P2* Have we evaluated security risks in both the legacy and target systems?
+
+* [ ] 2.9 *P2* Have we traced data flows to original sources rather than assuming the legacy system is the source of truth?
 
 NOTE: Often better data exists at original source systems that was lost or degraded when passed to legacy systems.
 
-* [ ] 2.9 *P2* Have we identified any critical aggregators (reporting functions crucial to running the business)?
+* [ ] 2.10 *P2* Have we identified any critical aggregators (reporting functions crucial to running the business)?
 
 NOTE: Reports or data aggregation processes that executives rely on to run the business, which often become bottlenecks in migrations.
 
-* [ ] 2.10 *P3* Have we analyzed how current business processes are shaped by legacy system constraints?
+* [ ] 2.11 *P3* Have we analyzed how current business processes are shaped by legacy system constraints?
 
-* [ ] 2.11 *P3* Have we explored potential event interception points (messaging, APIs, databases) to enable incremental migration?
+* [ ] 2.12 *P3* Have we explored potential event interception points (messaging, APIs, databases) to enable incremental migration?
 
 *Identify locations where you can intercept data flows between systems to gradually redirect processing to new components.*
 
@@ -250,9 +258,11 @@ NOTE: Where data must be stored, how it can be processed, and which laws apply t
 *How we're going to do this*
 
 
-* [ ] 7.1 *P1* Have we designed a phased approach that reduces risk?
+* [ ] 7.1 *P1* Have we designed an iterative/incremental approach that reduces risk?
 
-* [ ] 7.2 *P1* Have we identified high-value components to prioritize for early migration?
+* [ ] 7.2 *P1* Have we identified suitable candidates for early migration?
+
+NOTE: Considering both high-value components and low-hanging fruit, with clear criteria for what constitutes meaningful early wins (e.g. 10% revenue threshold)?
 
 * [ ] 7.3 *P1* Do we have a data migration strategy that ensures business continuity?
 
@@ -290,7 +300,7 @@ NOTE: Include plans for automated data reconciliation checks and handling of dat
 
 * [ ] 7.15 *P3* Have we explored applying the Strangler Fig and Bridge to the New Town patterns to gradually replace functionality?
 
-NOTE: Patterns where new functionality gradually takes over from legacy code by intercepting calls (Strangler Fig) or through intermediate connecting layers during transition (Bridge to the New Town).
+NOTE: Patterns where new functionality gradually takes over from legacy code by intercepting calls (Strangler Fig) or through intermediate connecting layers during transition (Bridge to the New Town). When deciding for a pattern like Strangler Fig, also consider that while functionality migration may be straightforward, data migration complexity can be significantly higher.
 
 * [ ] 7.16 *P3* Have we designed necessary transitional architecture components with clear plans for their eventual removal?
 
@@ -343,6 +353,8 @@ NOTE: If the goal is to release every two weeks post-migration, start releasing 
 * [ ] 8.18 *P3* Have we designed our testing approach to validate that migrated functionality performs equivalently to legacy systems under real-world conditions?
 
 NOTE: Beyond functional testing, ensure performance, reliability, and user experience match or exceed legacy system capabilities.
+
+* [ ] 8.19 *P3* Have we considered approaches for parallel performance measurement and validation (such as tools like GitHub Scientist) to compare old and new system behavior under real conditions?
 
 > **Facilitator Note:** Focus on decisions that can't be easily changed later. Avoid getting bogged down in implementation details that can be refined during execution.
 

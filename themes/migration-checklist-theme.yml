@@ -179,9 +179,9 @@ footer:
     right:
       content: '{page-number}'
     center:
-      content: 'Legacy Migration Checklist v3.0'
+      content: 'Legacy Migration Checklist v{checklist-version}'
   verso:
     left:
       content: '{page-number}'
     center:
-      content: 'Legacy Migration Checklist v3.0'
+      content: 'Legacy Migration Checklist v{checklist-version}'
