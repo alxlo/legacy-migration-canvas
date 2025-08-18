@@ -48,41 +48,107 @@ Diese Checkliste ist für die Arbeit mit dem Legacy Migration Canvas während ei
 - *P3 (Ergänzend)*: Weitere Fragestellungen, die eventuell wichtig sein könnten (kommt drauf an).
 
 
-> **Facilitator Note:** Mit P1-Fragen beginnen, um den Canvas möglichst vollständig abzudecken. P2/P3 behandeln wenn Zeit dafür ist oder um Aufgaben für deren Klärung zu verteilen.
+> **Hinweis:** Mit P1-Fragen beginnen, um den Canvas möglichst vollständig abzudecken. P2/P3 behandeln wenn Zeit dafür ist oder um Aufgaben für deren Klärung zu verteilen.
 
 endif::[]
 
 '''
 
 == Business Case & Value Proposition
+ifdef::lang-en[]
 *Why are we doing this & what do we gain?*
+endif::[]
+ifdef::lang-de[]
+*Warum machen wir das & was gewinnen wir dabei?*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 1.1 *P1* Have we clearly articulated the business goals for this migration beyond technical improvements?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.1 *P1* Haben wir die Geschäftsziele für diese Migration klar definiert, die über technische Verbesserungen hinausgehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.2 *P1* Have we identified specific customer/user pain points this migration will address? What are they?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.2 *P1* Haben wir spezifische "Pain Points" von Kunden/Nutzern identifiziert, die diese Migration lösen wird? Welche sind das?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.3 *P1* Have we conducted a neutral assessment of the current system's strengths and weaknesses before defining a specific migration approach?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.3 *P1* Haben wir eine neutrale Bewertung der Stärken und Schwächen des aktuellen Systems durchgeführt, bevor wir einen Migration-Ansatz definiert haben?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.4 *P1* Do we understand how a potential migration could support the company's long-term strategy?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.4 *P1* Verstehen wir, wie eine Migration die langfristige Unternehmensstrategie unterstützen könnte?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.5 *P1* Have we identified new business capabilities that will be enabled by the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.5 *P1* Haben wir neue Business-Capabilities (Kompetenzen und technisches Know-how) identifiziert, die durch die Migration geschaffen werden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.6 *P1* Have we aligned with different stakeholders on their specific migration objectives (revenue generation, operational efficiency, risk reduction)?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.6 *P1* Haben wir uns mit den verschiedenen Stakeholdern über ihre spezifischen Migration-Ziele abgestimmt (Umsatzsteigerung, Effizienz im Betrieb, Risikoreduktion)?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.7 *P2* Have we identified product lines or features that are unprofitable and could be discontinued rather than migrated?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.7 *P2* Haben wir Produktlinien oder Features identifiziert, die unrentabel sind und eingestellt statt migriert werden könnten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.8 *P2* Have we quantified potential time/cost savings for the business and customers?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.8 *P2* Haben wir potenzielle Zeit- und Kosteneinsparungen für das Unternehmen und die Kunden quantifiziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.9 *P2* Do we have metrics in place to measure business value before and after the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.9 *P2* Haben wir Metriken definiert, um den Nutzen für das Unternehmen vor und nach der Migration zu messen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.10 *P2* Have we considered using structured goal-setting frameworks like OKRs to align migration objectives with measurable business outcomes?
 
 NOTE: OKRs (Objectives and Key Results) connect high-level business objectives with specific, measurable key results that can be tracked throughout the migration.
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.10 *P2* Haben wir strukturierte Frameworks wie OKRs in Betracht gezogen, um Migration-Ziele mit messbaren Geschäftsergebnissen  zu verknüpfen?
 
+NOTE: OKRs (Objectives and Key Results) verbinden abstrakte Geschäftsziele mit spezifischen, messbaren Schlüsselergebnissen, die während der Migration nachverfolgt werden können.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 1.11 *P2* Have we secured executive sponsorship with alignment on business objectives?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.11 *P2* Haben wir die Unterstützung durch die Geschäftsleitung (Executive Sponsorship) durch die Ausrichtung an Geschäftszielen sichergestellt?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Focus on tangible business value, not just "technical debt reduction." Help the team think like product owners, not just engineers.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Fokus auf greifbaren Nutzen für das Unternehmen, nicht nur "technische Schulden reduzieren." Das Team soll die Perspektive  von Product Ownern einnehmen und nicht nur an die technische Umsetzung denken.
+endif::[]
 
 ---
 
