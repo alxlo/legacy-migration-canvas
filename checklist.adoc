@@ -153,40 +153,115 @@ endif::[]
 ---
 
 == Current System Analysis
+ifdef::lang-en[]
 *What we're working with*
+endif::[]
+ifdef::lang-de[]
+*Was ist unser Ausgangspunkt?*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 2.1 *P1* Have we thoroughly analyzed and documented the current system architecture and dependencies?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.1 *P1* Haben wir die aktuelle Systemarchitektur und Abhängigkeiten gründlich analysiert und dokumentiert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.2 *P1* Do we understand the data models and their business relevance?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.2 *P1* Verstehen wir die Datenmodelle und ihre fachliche Relevanz?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.3 *P1* Do we know which legacy features are still used vs. obsolete?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.3 *P1* Wissen wir, welche existierenden Features noch genutzt werden und welche obsolet sind?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.4 *P1* Have we identified cross-cutting concerns (logging, security, etc.) that need redesign?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.4 *P1* Haben wir Querschnittsbelange (Logging, Security, etc.) identifiziert, die neu gestaltet werden müssen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.5 *P2* Do we understand integration points with other systems and their migration impacts?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.5 *P2* Verstehen wir die Integrationspunkte mit anderen Systemen und deren Auswirkungen auf die Migration?
+endif::[]
 
-* [ ] 2.6 *P2* Have we analyzed current operations, monitoring, and support processes for the legacy system? 
+ifdef::lang-en[]
+* [ ] 2.6 *P2* Have we analyzed current operations, monitoring, and support processes for the legacy system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.6 *P2* Haben wir die aktuellen Betriebsprozesse, Monitoring und Support-Prozesse für das Legacy-System analysiert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.7 *P2* Have we identified technical debt that should be addressed during migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.7 *P2* Haben wir technische Schulden identifiziert, die während der Migration angegangen werden sollten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.8 *P2* Have we evaluated security risks in both the legacy and target systems?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.8 *P2* Haben wir Sicherheitsrisiken sowohl im Legacy- als auch im Zielsystem bewertet?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.9 *P2* Have we traced data flows to original sources rather than assuming the legacy system is the source of truth?
 
 NOTE: Often better data exists at original source systems that was lost or degraded when passed to legacy systems.
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.9 *P2* Haben wir Datenflüsse bis zu den ursprünglichen Quellen zurückverfolgt, anstatt anzunehmen, dass das Legacy-System die "Source of Truth" ist?
 
+NOTE: Oft sind in den ursprünglichen Quellsystemen detailliertere oder qualitativ bessere Daten vorhanden als die, die momentan an das existierende Sytem weitergegeben werden.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 2.10 *P2* Have we identified any critical aggregators (reporting functions crucial to running the business)?
 
 NOTE: Reports or data aggregation processes that executives rely on to run the business, which often become bottlenecks in migrations.
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.10 *P2* Haben wir kritische Aggregatoren identifiziert (Reporting-Funktionen, die für den Geschäftsbetrieb entscheidend sind)?
 
+NOTE: Oft existieren komplexe Reporting- oder Datenaggregationsprozesse, auf die die Geschäftsleitung angewiesen ist um das Unternehmen zu führen. Werden diese erst gegen Ende der Migration berücksichtig können diese zu Show-Stoppern werden.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 2.11 *P3* Have we analyzed how current business processes are shaped by legacy system constraints?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.11 *P3* Haben wir analysiert, wie aktuelle Geschäftsprozesse durch die Einschränkungen des Legacy-Systems geprägt sind?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.12 *P3* Have we explored potential event interception points (messaging, APIs, databases) to enable incremental migration?
 
-*Identify locations where you can intercept data flows between systems to gradually redirect processing to new components.*
+NOTE: Identify locations where you can intercept data flows between systems to gradually redirect processing to new components.
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.12 *P3* Haben wir potenzielle Event-Interception-Points (Messaging, APIs, Datenbanken) untersucht, um eine schrittweise Migration zu ermöglichen?
 
+NOTE: Stellen identifizieren, an denen Datenflüsse zwischen Systemen abgefangen werden können, um die Verarbeitung schrittweise auf neue Komponenten umzuleiten.
+endif::[]
+
+ifdef::lang-en[]
 > **Facilitator Note:** Don't get lost too deep into technical details in the workshop. Focus on understanding the big picture and identifying what needs deeper analysis.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Nicht zu tief in technische Details im Workshop abtauchen. Fokus auf das große Ganze und darauf, was ein detailliertere Analyse erfordert.
+endif::[]
 
 ---
 
