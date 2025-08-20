@@ -266,44 +266,126 @@ endif::[]
 ---
 
 == Stakeholder Needs
+ifdef::lang-en[]
 *Who's affected & what they actually need*
+endif::[]
+ifdef::lang-de[]
+*Wer ist davon betroffen? Welche Anliegen haben die Betroffenen?*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 3.1 *P1* Have we identified all relevant stakeholder groups (end users, business departments, IT, etc.)?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.1 *P1* Haben wir alle relevanten Stakeholder-Gruppen identifiziert (Endnutzer, Fachbereiche, IT, usw.)?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.2 *P1* Have we gathered input from end customers on their needs and pain points?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.2 *P1* Haben wir die Input von Endkunden zu ihren Bedürfnissen und "Pain Points" gesammelt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.3 *P1* Have we engaged with sales/customer service teams to understand customer expectations?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.3 *P1* Haben wir mit Sales- und Customer-Service-Teams gesprochen, um Kundenerwartungen zu verstehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.4 *P1* Do we have a communication plan to keep stakeholders informed throughout the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.4 *P1* Haben wir einen Kommunikationsplan, um Stakeholder während der gesamten Migration auf dem Laufenden zu halten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.5 *P1* Have we established feedback channels for continuous stakeholder input?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.5 *P1* Haben wir Feedback-Kanäle für kontinuierlichen Stakeholder-Input eingerichtet?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.6 *P2* Have we conducted interviews or observation sessions with frontline employees?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.6 *P2* Haben wir Interviews oder Beobachtungssessions mit den Mitarbeitern durchgeführt, die direkten Kundenkontakt haben?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.7 *P2* Have we analyzed support tickets and common user complaints?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.7 *P2* Haben wir Support-Tickets und häufige Nutzerbeschwerden analysiert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.8 *P2* Have we engaged with finance teams to understand revenue impacts of different products/features?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.8 *P2* Haben wir mit Finance-Teams gesprochen, um die Auswirkungen verschiedener Produkte/Features auf Umsatz und Gewinn zu verstehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.9 *P2* Have we defined communication cadence and key milestone updates for different stakeholder groups throughout the migration?
 
 NOTE: Different stakeholders need different update frequencies - executives might need monthly updates while end users need more frequent communication during their migration phases.
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.9 *P2* Haben wir die Kommunikationshäufigkeit und wichtige Meilenstein-Updates für verschiedene Stakeholder-Gruppen während der Migration festgelegt?
 
+NOTE: Verschiedene Stakeholder brauchen unterschiedlich oft Updates - Führungskräfte benötigen eventuell monatliche Updates, während Endnutzer während der Migration häufiger informiert werden müssen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 3.10 *P2* Have we established escalation protocols for communicating migration issues or delays to stakeholders?
 
 NOTE: Define when and how to communicate problems, who needs to be informed first, and what level of detail different groups require.
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.10 *P2* Haben wir Eskalationsprotokolle für die Kommunikation von Migrationsproblemen oder Verzögerungen an Stakeholder festgelegt?
 
+NOTE: Definieren, wann und wie Probleme kommuniziert werden, wer zuerst informiert werden muss und welche Details verschiedene Gruppen benötigen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 3.11 *P3* Have we identified off-system workarounds (spreadsheets, access databases, etc.) that have evolved around legacy limitations?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.11 *P3* Haben wir Workarounds (Spreadsheets, Access-Datenbanken, etc.) identifiziert, die sich um die Einschränkungen des Legacy-Systems herum entwickelt haben?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.12 *P3* Have we involved stakeholders in identifying meaningful ways to slice the migration?
 
 NOTE: Work with business experts to break down the system into logical segments that can be migrated independently, focusing on business value rather than technical boundaries.
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.12 *P3* Haben wir Stakeholder dabei einbezogen, die Migration in sinnvolle Teilsegmente/"Slices" aufzuteilen?
 
+NOTE: Mit Fachexperten zusammenarbeiten, um das System in logische Segmente aufzuteilen, die unabhängig migriert werden können - mit Fokus auf fachlichen Wert statt auf technische Grenzen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 3.13 *P2* Do we have a plan for celebrating migration milestones and communicating wins to maintain stakeholder engagement?
 
 NOTE: Migration projects can be long - plan for recognizing progress and maintaining momentum through regular success communication.
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.13 *P2* Verfügen wir über einen Plan, um Meilensteine der Migration zu feiern und Erfolge zu kommunizieren, um das Engagement der Stakeholder aufrechtzuerhalten?
 
-> **Facilitator Note:** Technical teams often underestimate stakeholder complexity. Help them understand that "users" includes many different groups with different needs.
+NOTE: Migrationsprojekte können langwierig sein – plant daher, Fortschritte anzuerkennen und die Dynamik durch regelmäßige Kommunikation über Erfolge aufrechtzuerhalten.
+endif::[]
+
+ifdef::lang-en[]
+> **Facilitator Note:** Technical teams often underestimate the complexity of stakeholder involvement. Help them understand that "users" includes many different groups with different needs.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Technische Teams unterschätzen häufig die Komplexität der Einbindung von Stakeholdern. Sie sollten verstehen, dass „Nutzer” viele verschiedene Gruppen mit unterschiedlichen Bedürfnissen umfassen.
+endif::[]
 
 ---
 
