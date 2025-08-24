@@ -481,31 +481,89 @@ endif::[]
 ---
 
 == Quality Goals
+ifdef::lang-en[]
 *What matters most*
+endif::[]
+ifdef::lang-de[]
+*Was wirklich zählt*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 5.1 *P1* Have we identified the top 3-5 most important quality goals for this migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.1 *P1* Haben wir die 3-5 wichtigsten Qualitätsziele für diese Migration identifiziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.2 *P1* Have we aligned quality goals with key stakeholder concerns and business drivers?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.2 *P1* Haben wir die Qualitätsziele auf die wichtigsten Anliegen der Stakeholder und die entscheidenden geschäftlichen Ziele abgestimmt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.3 *P1* Have we established measurable criteria for each quality goal?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.3 *P1* Haben wir für jedes Qualitätsziel messbare Kriterien festgelegt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.4 *P1* Have we prioritized quality goals when they conflict with each other?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.4 *P1* Haben wir Qualitätsziele priorisiert, wenn sie miteinander in Konflikt stehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.5 *P2* Have we defined how to measure the success of the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.5 *P2* Haben wir definiert, wie wir den Erfolg der Migration messen werden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.6 *P2* Do we have plans to collect user feedback after implementation?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.6 *P2* Beabsichtigen wir, nach der Implementierung Nutzerfeedback einzuholen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.7 *P2* Have we established a process for addressing issues and enhancements post-launch?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.7 *P2* Haben wir einen Prozess für die Bearbeitung von Problemen und Verbesserungen nach dem (Neu-)Start eingerichtet?
+endif::[]
 
-* [ ] 5.8 *P2* Can we validate that the promised benefits (e.g. faster time to market, lower cost of change) are actually realized?
+ifdef::lang-en[]
+* [ ] 5.8 *P2* Can we validate that the promised benefits (e.g. faster time to market, lower cost of change, etc.) are actually realized?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.8 *P2* Können wir überprüfen, ob die versprochenen Vorteile (z. B. schnellere Time-to-Market, geringere Änderungskosten, etc.) tatsächlich verwirklicht werden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.9 *P3* Have we established processes to ensure we don't accumulate technical debt in the new system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.9 *P3* Haben wir Prozesse etabliert, um sicherzustellen, dass wir im neuen System keine technischen Schulden ansammeln?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.10 *P3* Do we have a plan for implementing continuous delivery practices that might have been promised in the business case?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.10 *P3* Verfügen wir über einen Plan zur Umsetzung der im Business Case möglicherweise zugesagten Continuous-Delivery-Praktiken?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Quality goals should be specific and measurable, not generic "better performance." Help the team connect quality attributes to real business outcomes.
-
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Qualitätsziele sollten spezifisch und messbar sein, nicht allgemein wie „bessere Performance“. Das Team sollte dabei unterstützt werden, Qualitätsmerkmale mit tatsächlichen Geschäftsergebnissen zu verknüpfen.
+endif::[]
 ---
 
 == Technical Constraints
