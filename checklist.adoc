@@ -390,32 +390,93 @@ endif::[]
 ---
 
 == Organizational Constraints
+ifdef::lang-en[]
 *Reality check*
+endif::[]
+ifdef::lang-de[]
+*Reality check*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 4.1 *P1* Do we have the right mix of technical skills for both legacy and target technologies?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.1 *P1* Verfügen wir über die richtige Kombination aus technischen Fähigkeiten - sowohl für Legacy- als auch für Ziel-Technologien?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.2 *P1* Have we allocated product management resources to guide the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.2 *P1* Haben wir Ressourcen für das Produktmanagement bereitgestellt, um die Migration zu begleiten und Ziele zu definieren?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.3 *P1* Have we budgeted for potential unforeseen technical challenges?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.3 *P1* Haben wir mögliche unvorhergesehene technische Herausforderungen im Budget berücksichtigt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.4 *P1* Do we have access to subject matter experts for critical legacy components?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.4 *P1* Haben wir Zugang zu Fachexperten für kritische Legacy-Komponenten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.5 *P2* Do we have contingency plans for timeline extensions if needed?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.5 *P2* Verfügen wir über Notfallpläne für Terminverlängerungen, falls erforderlich?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.6 *P2* Have we accurately estimated the total cost of ownership for the new system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.6 *P2* Haben wir die Gesamtbetriebskosten (Total Cost of Ownership) für das neue System korrekt eingeschätzt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.7 *P2* Have we considered external expertise needs for specialized migration tasks?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.7 *P2* Haben wir den Bedarf an externem Fachwissen für spezielle Migrationsaufgaben berücksichtigt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.8 *P2* Have we budgeted for the potential parallel running of critical systems during transition phases?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.8 *P2* Haben wir die Kosten für den möglichen parallelen Betrieb kritischer Systeme während der Übergangsphase im Budget berücksichtigt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.9 *P3* Have we allocated resources for implementing and eventually removing transitional architecture components?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.9 *P3* Haben wir Ressourcen für die Implementierung und spätere Entfernung von Komponenten der Übergangsarchitektur bereitgestellt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.10 *P3* Have we accounted for the time needed to collaborate with business on identifying migration slices?
 
 NOTE: Ensure the schedule includes dedicated time for workshops to analyze and define meaningful migration increments.
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.10 *P3* Haben wir den Zeitaufwand eingeplant, der für die Zusammenarbeit mit den Geschäftsbereichen zur Identifizierung von Migrationsabschnitten (migration slices) erforderlich ist?
 
+NOTE: Sicherstellen, dass der Zeitplan ausreichend Zeit für Workshops zur Analyse und Definition sinnvoller Migrationsschritte vorsieht.
+endif::[]
+
+ifdef::lang-en[]
 > **Facilitator Note:** Be realistic about constraints. Technical teams tend to be optimistic about timelines and underestimate the complexity of organizational coordination.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Die Zeitplanung sollte realistisch sein. Technische Teams neigen dazu, optimistisch zu planen und die Komplexität der organisatorischen Koordination zu unterschätzen.
+endif::[]
 
 ---
 
