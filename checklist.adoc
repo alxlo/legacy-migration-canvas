@@ -567,32 +567,90 @@ endif::[]
 ---
 
 == Technical Constraints
+ifdef::lang-en[]
 *Technical stuff we can't change*
+endif::[]
+ifdef::lang-de[]
+*Technische Sachen, die wir nicht/kaum ändern können*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 6.1 *P1* Have we identified legacy interfaces that must be maintained during and after migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.1 *P1* Haben wir Legacy-Schnittstellen identifiziert, die während und nach der Migration beibehalten werden müssen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.2 *P1* Do we understand technology stack requirements or limitations?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.2 *P1* Verstehen wir die Anforderungen oder Einschränkungen unseres Technologie-Stacks?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.3 *P1* Have we mapped integration points with external systems?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.3 *P1* Haben wir Integrationspunkte mit externen Systemen erfasst?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.4 *P1* Do we know infrastructure and deployment constraints we must work within?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.4 *P1* Kennen wir die Infrastruktur- und Deployment-Constraints, mit denen wir arbeiten müssen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.5 *P2* Have we evaluated what regulatory or compliance requirements constrain our technical choices?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.5 *P2* Haben wir geprüft, welche regulatorischen oder Compliance-Anforderungen unsere technischen Entscheidungen einschränken?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.6 *P2* Do we understand data residency or sovereignty requirements?
-
 NOTE: Where data must be stored, how it can be processed, and which laws apply to it based on geographic location.
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.6 *P2* Verstehen wir die Anforderungen an Data Residency oder Data Sovereignty?
+NOTE: Wo Daten gespeichert werden müssen, wie sie verarbeitet werden können und welche Gesetze basierend auf dem geografischen Standort gelten.
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.7 *P2* Have we identified any vendor lock-in situations that limit our options?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.7 *P2* Haben wir Vendor-Lock-ins identifiziert, die unsere Optionen einschränken?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.8 *P2* Do we know what existing licenses or contracts affect our technology choices?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.8 *P2* Wissen wir, welche bestehenden Lizenzen oder Verträge unsere Technologie-Entscheidungen beeinflussen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.9 *P3* Have we evaluated the impact of existing monitoring and operational tooling on our choices?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.9 *P3* Haben wir die Auswirkungen der vorhandenen Monitoring- und operationellen Tools auf unsere Entscheidungen bewertet?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.10 *P3* Do we understand network and security constraints that may affect the new architecture?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.10 *P3* Kennen wir Netzwerk- und Sicherheitseinschränkungen, die sich auf die neue Architektur auswirken könnten?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Technical constraints are often the most comfortable area for technical teams, but don't let them get stuck here. Keep the focus on constraints that truly limit options.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Technische Constraints sind oft der Bereich, in dem sich technische Teams am wohlsten fühlen, aber sie sollten sich nicht darin verlieren. Fokus auf Einschränkungen legen, die tatsächlich den Spielraum einschränken.
 
 ---
 
