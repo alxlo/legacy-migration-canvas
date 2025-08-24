@@ -655,58 +655,147 @@ ifdef::lang-de[]
 ---
 
 == Migration Strategy
+ifdef::lang-en[]
 *How we're going to do this*
+endif::[]
+ifdef::lang-de[]
+*Wie gehen wir das an?*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 7.1 *P1* Have we designed an iterative/incremental approach that reduces risk?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.1 *P1* Haben wir einen iterativen/inkrementellen Ansatz entwickelt, der Risiken minimiert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.2 *P1* Have we identified suitable candidates for early migration?
+NOTE: Considering both high-value components and low-hanging fruits, with clear criteria for what constitutes meaningful early wins (e.g. 10% revenue threshold)?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.2 *P1* Haben wir geeignete Bereiche/Komponenten für eine frühzeitige Migration identifiziert?
+NOTE: Berücksichtigung sowohl anspruchsvoller/wichtiger Komponenten als auch "low-hanging fruits" mit klaren Kriterien dafür, was ernstzunnehmende erste Erfolge sind (z. B. 10% des Umsatzes)
+endif::[]
 
-NOTE: Considering both high-value components and low-hanging fruit, with clear criteria for what constitutes meaningful early wins (e.g. 10% revenue threshold)?
-
+ifdef::lang-en[]
 * [ ] 7.3 *P1* Do we have a data migration strategy that ensures business continuity?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.3 *P1* Haben wir eine Datenmigrationsstrategie, die die Geschäftskontinuität sicherstellt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.4 *P1* Have we explicitly ruled out big bang approaches in favor of incremental migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.4 *P1* Haben wir Big-Bang-Ansätze explizit ausgeschlossen und setzen stattdessen auf schrittweise Migration?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.5 *P1* Have we explored different slicing approaches?
-
 NOTE: Consider options like migrating by product line, user group, business capability, or user journey to find the most effective approach.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.5 *P1* Haben wir verschiedene Slicing-Ansätze untersucht?
+NOTE: Optionen wie Migration nach Produktlinie, Nutzergruppe, Geschäftsfähigkeit (business capability) oder Benutzererfahrung betrachten, um den effektivsten Ansatz zu finden.
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.6 *P1* Have we planned for parallel operations during transition if needed?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.6 *P1* Haben wir gegebenenfalls einen Parallelbetrieb während der Übergangsphase vorgesehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.7 *P1* Have we considered tackling critical aggregators (essential reports/functions) early rather than last? Which?
-
 NOTE: Consider replacing critical reports first rather than leaving them until the end where they can block complete migration.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.7 *P1* Haben wir in Betracht gezogen, kritische Aggregatoren (wichtige Reports/Funktionen) frühzeitig anzugehen, anstatt sie bis zum Schluss aufzuschieben? Welche?
+NOTE: Kritische Reports zuerst ersetzen, anstatt sie bis zum Ende aufzuschieben, wo sie die vollständige Migration blockieren können.
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.8 *P1* Have we avoided the feature parity trap by focusing on business needs rather than replicating all existing functionality?
-
 NOTE: Resist the temptation to simply recreate the existing system with newer technology.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.8 *P1* Haben wir die Feature-Parity-Falle vermieden, indem wir uns auf Geschäftsanforderungen konzentrieren statt alle bestehenden Funktionen zu replizieren?
+NOTE: Das bestehende System einfach mit neuerer Technologie nachzubauen ist oft keine gute Idee.
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.9 *P1* Have we considered implementing frequent delivery practices from the beginning of the migration to validate future delivery capabilities?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.9 *P1* Haben wir von Beginn der Migration an die Einführung von Continous Delivery in Betracht gezogen, um künftige CI/CD-Fähigkeiten zu validieren?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.10 *P2* Have we defined rollback procedures in case of migration issues?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.10 *P2* Haben wir Rollback-Prozeduren für den Fall von Migrationsproblemen festgelegt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.11 *P2* Do we have a plan for handling legacy system maintenance during migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.11 *P2* Verfügen wir über einen Plan für die Wartung von Bestandssystemen während der Migration?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.12 *P2* Have we established a testing strategy for verifying functionality post-migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.12 *P2* Haben wir eine Teststrategie zur Überprüfung der Funktionalität nach der Migration festgelegt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.13 *P2* Have we planned for performance and load testing at each migration phase to ensure the new system can handle production workloads?
-
 NOTE: Consider testing both individual migrated components and the overall system performance as load shifts between old and new systems.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.13 *P2* Haben wir Performance- und Lasttests für jede Migrationsphase geplant, um sicherzustellen, dass das neue System die tatsächlichen Lasten im Produktivbetrieb bewältigen kann?
+NOTE: Tests sowohl für einzelne migrierte Komponenten als auch für die Gesamtsystemperformance einplanen, während sich die Last zwischen altem und neuem System verschiebt.
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.14 *P2* Do we have a strategy for testing data integrity and consistency between old and new systems during parallel operations?
-
 NOTE: Include plans for automated data reconciliation checks and handling of data discrepancies during transition.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.14 *P2* Verfügen wir über eine Strategie zur Prüfung der Datenintegrität und -konsistenz zwischen alten und neuen Systemen während des parallelen Betriebs?
+NOTE: Pläne für automatisierte Datenabgleichprüfungen und zur Behandlung von Abweichungen während der Umstellung berücksichtigen.
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.15 *P3* Have we explored applying the Strangler Fig and Bridge to the New Town patterns to gradually replace functionality?
-
 NOTE: Patterns where new functionality gradually takes over from legacy code by intercepting calls (Strangler Fig) or through intermediate connecting layers during transition (Bridge to the New Town). When deciding for a pattern like Strangler Fig, also consider that while functionality migration may be straightforward, data migration complexity can be significantly higher.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.15 *P3* Haben wir die Anwendung des Strangler-Fig- und des Bridge-to-the-New-Town-Patterns in Erwägung gezogen, um Funktionalität schrittweise zu ersetzen?
+NOTE: Muster, bei denen neue Funktionen nach und nach den alten Code ablösen, indem Aufrufe abgefangen werden (Strangler Fig) oder durch Verbindungskomponenten während der Übergangszeit an das Bestandssystem durchgereicht werden (Bridge to the New Town). Bei der Entscheidung für ein Muster wie Strangler Fig sollte auch berücWasksichtigt werden, dass die Funktionsmigration zwar unkompliziert sein kann, die Datenmigration jedoch deutlich komplexer sein kann.
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.16 *P3* Have we designed necessary transitional architecture components with clear plans for their eventual removal?
-
 NOTE: Temporary components needed during migration that should be removed once they're no longer needed.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.16 *P3* Haben wir die erforderlichen Komponenten der Übergangsarchitektur mit klaren Plänen für deren spätere Entfernung entworfen?
+NOTE: Temporäre Komponenten, die während der Migration benötigt werden und entfernt werden sollten, sobald sie nicht mehr gebraucht werden.
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Migration strategy often generates the most debate. Focus on establishing principles (incremental, value-driven) rather than detailed execution plans in the workshop.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Die Migrationsstrategie ist häufig Gegenstand intensiver Diskussionen. Im Workshop sollte der Schwerpunkt auf der Festlegung von Grundsätzen (inkrementell, wertorientiert) liegen und nicht auf detaillierten Ausführungsplänen.
+endif::[]
 
 ---
 
