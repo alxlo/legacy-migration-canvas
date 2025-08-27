@@ -819,52 +819,160 @@ endif::[]
 ---
 
 == Key Architectural Decisions
+ifdef::lang-en[]
 *Critical decisions that shape the migration*
+endif::[]
+ifdef::lang-de[]
+*Kritische Entscheidungen, die die Migration prägen*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 8.1 *P1* Have we made key technology stack decisions for the target architecture?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.1 *P1* Haben wir wichtige Entscheidungen zum Technologie-Stack für die Zielarchitektur getroffen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.2 *P1* Have we decided on the overall migration pattern (Strangler, Big Bang, Event Interception, etc.)?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.2 *P1* Haben wir uns für ein Migrationsmuster entschieden (Strangler, Big Bang, Event Interception usw.)?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.3 *P1* Have we chosen our approach to data migration and synchronization?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.3 *P1* Haben wir einen Lösungsansatz für die Datenmigration und -synchronisierung festgelegt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.4 *P1* Have we decided how to handle integration with systems that aren't being migrated?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.4 *P1* Haben wir entschieden, wie wir mit der Integration von Systemen umgehen, die nicht migriert werden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.5 *P1* Have we established short feedback loops for early validation of migration approaches?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.5 *P1* Haben wir kurze Feedback-Loops für die frühezeitige Validierung von Migrationsansätzen eingerichtet?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.6 *P1* Are we regularly providing business value through incremental delivery?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.6 *P1* Schaffen wir regelmäßig geschäftlichen Mehrwert durch inkrementelle Bereitstellung?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.7 *P1* Do we have a clear ownership model for components during transition and after migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.7 *P1* Verfügen wir über ein klares Ownership-Model für Komponenten während der Übergangsphase und nach der Migration?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.8 *P2* Have we chosen patterns for maintaining data consistency during migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.8 *P2* Haben wir Muster oder Lösungsansätze für die Gewährleistung der Datenkonsistenz während der Migration bestimmt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.9 *P2* Have we decided on our testing and validation approach for migration increments?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.9 *P2* Haben wir uns für einen Test- und Validierungsansatz für Migrationsinkremente entschieden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.10 *P2* Can we implemented frequent releases to prove our ability to deliver quickly post-migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.10 *P2* Können wir häufige Releases anbieten, um unsere Fähigkeit zur schnellen Bereitstellung nach der Migration unter Beweis zu stellen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.11 *P2* Have we considered test automation that supports rapid, confident changes?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.11 *P2* Haben wir Testautomatisierung in Betracht gezogen, die schnelle und sichere Änderungen unterstützt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.12 *P2* Have we documented architectural decisions for future reference?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.12 *P2* Haben wir Architekturentscheidungen dokumentiert, um später darauf zurückgreifen zu können?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.13 *P3* Have we decided on our approach to handling transitional states and dual-system operations?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.13 *P3* Haben wir Ansätze zum Umgang mit Übergangszuständen und für den gleichzeitigen Betrieb von zwei Systemen entwickelt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.14 *P3* Have we decided on monitoring and observability approaches for the migration process?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.14 *P3* Haben wir uns für Monitoring- und Observability-Ansätze für den Migrationsprozess entschieden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.15 *P3* Have we chosen our approach to feature flags or configuration management during transition?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.15 *P3* Haben wir Ansätze für z. B. Feature-Flags oder das Konfigurationsmanagement während der Übergangsphase angedacht?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.16 *P3* Are we "building as we mean to continue" with the same practices we want post-migration?
 
 NOTE: If the goal is to release every two weeks post-migration, start releasing every two weeks during migration.
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.16 *P3* Entwickeln wir so, wie wir es auch nach der Migration tun wollen, d. h. mit denselben Praktiken und Vorgehensweisen, die wir nach der Migration beibehalten möchten?
 
+NOTE:  Wenn das Ziel darin besteht, nach der Migration alle zwei Wochen ein Release zu veröffentlichen, sollten wir bereits während der Migration damit beginnen, alle zwei Wochen ein Release zu veröffentlichen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 8.17 *P3* Do we have a plan to eventually decommission any remaining legacy components?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.17 *P3* Haben wir einen Plan, um eventuell verbleibende Legacy-Komponenten außer Betrieb zu nehmen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.18 *P3* Have we designed our testing approach to validate that migrated functionality performs equivalently to legacy systems under real-world conditions?
 
 NOTE: Beyond functional testing, ensure performance, reliability, and user experience match or exceed legacy system capabilities.
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.18 *P3* Haben wir unseren Testansatz so konzipiert, dass wir überprüfen können, ob die migrierten Funktionen unter realen Bedingungen die gleiche Leistung wie die Legacy-Systeme erbringen?
 
+NOTE: Zusätzlich zu funktionalen Tests ist sicherzustellen, dass Leistung, Zuverlässigkeit und Benutzererfahrung den Fähigkeiten des Legacy-Systems entsprechen oder diese übertreffen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 8.19 *P3* Have we considered approaches for parallel performance measurement and validation (such as tools like GitHub Scientist) to compare old and new system behavior under real conditions?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.19 *P3* Haben wir Ansätze für die parallele Leistungsmessung und -validierung (z. B. Tools wie GitHub Scientist) in Betracht gezogen, um das Verhalten des alten und des neuen Systems unter realen Bedingungen zu vergleichen?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Focus on decisions that can't be easily changed later. Avoid getting bogged down in implementation details that can be refined during execution.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Fokus auf Entscheidungen, die später nicht einfach geändert werden können. Nicht in Implementierungsdetails verzetteln, die während der Umsetzung verfeinert werden können.
+endif::[]
 
 ---
 
