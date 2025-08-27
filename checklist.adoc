@@ -977,42 +977,122 @@ endif::[]
 ---
 
 == Risks & Mitigation
+ifdef::lang-en[]
 *What could go wrong & how we'll handle it*
+endif::[]
+ifdef::lang-de[]
+*Was könnte schiefgehen und wie gehen wir damit um?*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 9.1 *P1* Have we identified the top technical risks that could derail the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.1 *P1* Haben wir die wichtigsten technischen Risiken identifiziert, die die Migration beeinträchtigen könnten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.2 *P1* Have we identified business continuity risks during the migration process?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.2 *P1* Haben wir Risiken für die Geschäftskontinuität (business continuity) während des Migrationsprozesses identifiziert?
+endif::[]
 
-* [ ] 9.3 *P1* Do we have data migration risks and verification strategies identified?
+ifdef::lang-en[]
+* [ ] 9.3 *P1* Do we have data migration risks and possible verification strategies identified?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.3 *P1* Haben wir Risiken der Datenmigration und mögliche Verifikationsstrategien identifiziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.4 *P1* Have we planned contingencies for our most critical dependencies?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.4 *P1* Haben wir Notfallpläne für unsere kritischsten Abhängigkeiten erstellt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.5 *P1* Have we identified potential resistance points among user groups?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.5 *P1* Haben wir mögliche Vorbehalte und Widerstände bei Anwendergruppen identifiziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.6 *P2* Do we have a plan to address fears about job security or role changes?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.6 *P2* Verfügen wir über einen Plan, um Ängste und Bedenken hinsichtlich der Arbeitsplatzsicherheit oder von Rollenänderungen auszuräumen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.7 *P2* Have we accounted for training needs for different user groups?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.7 *P2* Haben wir den Schulungsbedarf für verschiedene Nutzergruppen berücksichtigt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.8 *P2* Do we understand how daily workflows will change and how to support that transition?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.8 *P2* Verstehen wir, wie sich tägliche Arbeitsabläufe ändern werden und wie wir diesen Übergang unterstützen können?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.9 *P2* Have we prepared users and stakeholders for potential temporary disparities in user experience during phased migration?
-
 NOTE: During incremental migration, users may experience different interfaces when moving between old and new system components.
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.9 *P2* Haben wir die Benutzer und Stakeholder auf mögliche vorübergehende Unterschiede in der Benutzererfahrung während der schrittweisen Migration vorbereitet?
+NOTE: Während einer schrittweisen Migration können Benutzer beim Wechsel zwischen alten und neuen Systemkomponenten unterschiedliche Benutzeroberflächen vorfinden.
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.10 *P2* Do we have champions in each business unit to help promote the change?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.10 *P2* Verfügen wir in jeder Geschäftseinheit über Fürsprecher, die die Veränderungen unterstützen und begleiten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.11 *P3* Have we communicated the benefits of the new system to all affected parties?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.11 *P3* Haben wir die Vorteile des neuen Systems an alle betroffenen Stakeholdergruppen kommuniziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.12 *P3* Have we considered how to manage workload during the transition period?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.12 *P3* Haben wir berücksichtigt, wie wir die Arbeitsbelastung während der Übergangsphase bewältigen können?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.13 *P2* Have we avoided heavyweight change processes that contradict our future delivery goals?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.13 *P2* Haben wir schwergewichtige Veränderungsprozesse vermieden, die unseren zukünftigen Delivery-Zielen widersprechen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.14 *P3* Have we addressed the organizational behaviors that led to the legacy situation in the first place?
-
 NOTE: Consider what patterns of decision-making or organizational culture contributed to the legacy situation and how to change them.
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.14 *P3* Haben wir uns mit den organisatorischen Verhaltensweisen befasst, die überhaupt erst zu der bisherigen Situation geführt haben?
+NOTE: Welche Muster der Entscheidungsfindung oder der Organisationskultur haben zur existierenden Situation beigetragen und wie könnte man diese ändern?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Risk identification often reveals gaps in earlier analysis. Use risks to validate previous sections and identify areas needing more detailed planning.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Die Risikoidentifizierung deckt häufig Lücken in früheren Analysen auf. Wissen zu Risiken nutzen, um vorherige Abschnitte zu validieren und Bereiche zu identifizieren, die einer detaillierteren Planung bedürfen.
+endif::[]
+
 
 ---
 
@@ -1082,14 +1162,10 @@ endif::[]
 ifdef::lang-de[]
 == Workshop-Zusammenfassung & Nächste Schritte
 
-*Wichtige Entscheidungen:*
-
-*Identifizierte kritische Risiken:*
-
-*Sofortige Folgeaktionen:*
-
-*Wichtige Folgeaktionen:*
-
-*Zukünftige Überlegungen:*
+* *Wichtige Entscheidungen:*
+* *Identifizierte kritische Risiken:*
+* *Unmittelbare Folgemaßnahmen:*
+* *Wichtige Folgemaßnahmen:*
+* *Zukünftige Überlegungen:*
 endif::[]
 ---
