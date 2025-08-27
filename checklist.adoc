@@ -1095,28 +1095,77 @@ endif::[]
 
 
 ---
-
+ifdef::lang-en[]
 == System Consolidation (if applicable, not in canvas)
 *Special considerations when merging multiple legacy systems*
+endif::[]
+ifdef::lang-de[]
+== System Consolidation (falls zutreffend, nicht in Canvas)
+*Besonderheiten bei der Zusammenführung mehrerer Legacy-Systeme*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 10.1 *P1* Have we mapped feature parity requirements between the systems being consolidated?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.1 *P1* Haben wir Anforderungen an die Funktionsgleichheit (feature parity) zwischen den zu konsolidierenden Systemen erfasst?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.2 *P1* Do we understand the different user experiences and expectations for each system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.2 *P1* Verstehen wir die unterschiedlichen Benutzererfahrungen und -erwartungen für jedes System?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.3 *P1* Have we identified potential conflicts in business processes between systems?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.3 *P1* Haben wir potenzielle Konflikte in den Geschäftsprozessen zwischen den Systemen identifiziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.4 *P1* Do we have a strategy for data reconciliation between disparate systems?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.4 *P1* Haben wir eine Strategie für den Datenabgleich zwischen unterschiedlichen Systemen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.5 *P2* Have we established decision-making criteria for resolving conflicting requirements?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.5 *P2* Haben wir Entscheidungskriterien für die Konfliktlösung bei widersprüchlichen Anforderungen festgelegt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.6 *P2* Do we understand the organizational impacts of merging user communities?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.6 *P2* Verstehen wir die organisatorischen Auswirkungen der Zusammenführung von Nutzergruppen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.7 *P2* Have we documented terminology differences to ensure consistent understanding?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.7 *P2* Haben wir bestehende Unterschiede in der Verwendung von Fachbegriffen dokumentiert, um ein einheitliches Verständnis zu gewährleisten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.8 *P3* Have we re-evaluated the assumption that all systems need to be consolidated rather than some retired?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.8 *P3* Haben wir die Annahme hinterfragt, dass alle Systeme konsolidiert werden müssen (anstatt einige stillzulegen)?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** System consolidation adds significant complexity. If applicable, ensure these questions get P1 attention as they fundamentally impact migration strategy.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:**  Die Konsolidierung von Systemen erhöht die Komplexität erheblich. Falls zutreffend, dafür sorgen, dass diese Fragen P1-Status erhalten, da sie grundlegende Auswirkungen auf die Migrationsstrategie haben.
+endif::[]
 
 ---
 
