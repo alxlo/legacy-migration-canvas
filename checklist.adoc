@@ -1169,33 +1169,98 @@ endif::[]
 
 ---
 
+ifdef::lang-en[]
 == Post-Migration Success (if applicable, not in canvas)
 *Ensuring we actually deliver the promised business value*
+endif::[]
+ifdef::lang-de[]
+== Post-Migration Success (falls zutreffend, nicht in Canvas)
+*Sicherstellen, dass wir den versprochenen Mehrwert auch tatsächlich erbringen*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 11.1 *P1* Do we have a maintenance and support plan for the new system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.1 *P1* Haben wir einen Wartungs- und Support-Plan für das neue System?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.2 *P1* Do we have data/metrics to measure the success of the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.2 *P1* Haben wir Daten/Metriken, um den Erfolg der Migration zu messen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.3 *P1* Do we have knowledge transfer plans to operational teams?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.3 *P1* Haben wir Pläne für den Wissenstransfer an die operativen Teams?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.4 *P1* Have we documented architectural decisions for future reference?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.4 *P1* Haben wir Architekturentscheidungen dokumentiert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.5 *P2* Do we have plans to collect user feedback after implementation?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.5 *P2* Planen wir, nach der Implementierung Nutzer-Feedback zu sammeln?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.6 *P2* Have we established a process for addressing issues and enhancements post-launch?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.6 *P2* Haben wir einen Prozess etabliert, um mit Problemen und Verbesserungsvorschläge nach der Einführung umzugehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.7 *P2* Have we validated that the promised benefits (faster time to market, lower cost of change) are actually realized?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.7 *P2*  Haben wir überprüft, ob die versprochenen Vorteile (z. B. schnellere Markteinführung, geringere Änderungskosten) tatsächlich eingetreten sind?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.8 *P2* Have we implemented continuous delivery practices that were promised in the business case?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.8 *P2* Haben wir die eventuell im Business Case versprochenen Continuous-Delivery-Praktiken umgesetzt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.9 *P2* Have we scheduled a retrospective to capture lessons learned?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.9 *P2* Haben wir eine Retrospektive geplant, um gewonnene Erkenntnisse zu sammeln?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.10 *P3* Have we established processes to ensure we don't accumulate technical debt in the new system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.10 *P3* Haben wir Prozesse etabliert, um sicherzustellen, dass sich im neuen System keine technischen Schulden anhäufen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.11 *P3* Do we have a plan to eventually decommission any remaining legacy components?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.11 *P3* Haben wir einen Plan, um eventuell verbleibende Legacy-Komponenten außer Betrieb zu nehmen?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Post-migration success is where many projects fail. Technical completion ≠ business success. Ensure the team commits to measuring and validating actual business outcomes.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Die Bewertung des Erfolgs nach der Migration kommt oft zu kurz. Die Technische Fertigstellung garantiert noch nicht den wirtschaftlichen Erfolg. Sicherstellen, dass tatsächliche Geschäftsergebnisse gemessen und überprüft werden.
+endif::[]
 
 
 ifdef::lang-en[]
