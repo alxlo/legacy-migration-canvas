@@ -48,409 +48,1219 @@ Diese Checkliste ist für die Arbeit mit dem Legacy Migration Canvas während ei
 - *P3 (Ergänzend)*: Weitere Fragestellungen, die eventuell wichtig sein könnten (kommt drauf an).
 
 
-> **Facilitator Note:** Mit P1-Fragen beginnen, um den Canvas möglichst vollständig abzudecken. P2/P3 behandeln wenn Zeit dafür ist oder um Aufgaben für deren Klärung zu verteilen.
+> **Hinweis:** Mit P1-Fragen beginnen, um den Canvas möglichst vollständig abzudecken. P2/P3 behandeln wenn Zeit dafür ist oder um Aufgaben für deren Klärung zu verteilen.
 
 endif::[]
 
 '''
 
 == Business Case & Value Proposition
+ifdef::lang-en[]
 *Why are we doing this & what do we gain?*
+endif::[]
+ifdef::lang-de[]
+*Warum machen wir das & was gewinnen wir dabei?*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 1.1 *P1* Have we clearly articulated the business goals for this migration beyond technical improvements?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.1 *P1* Haben wir die Geschäftsziele für diese Migration klar definiert, die über technische Verbesserungen hinausgehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.2 *P1* Have we identified specific customer/user pain points this migration will address? What are they?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.2 *P1* Haben wir spezifische "Pain Points" von Kunden/Nutzern identifiziert, die diese Migration lösen wird? Welche sind das?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.3 *P1* Have we conducted a neutral assessment of the current system's strengths and weaknesses before defining a specific migration approach?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.3 *P1* Haben wir eine neutrale Bewertung der Stärken und Schwächen des aktuellen Systems durchgeführt, bevor wir einen Migrationsansatz definiert haben?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.4 *P1* Do we understand how a potential migration could support the company's long-term strategy?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.4 *P1* Verstehen wir, wie eine Migration die langfristige Unternehmensstrategie unterstützen könnte?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.5 *P1* Have we identified new business capabilities that will be enabled by the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.5 *P1* Haben wir neue Business-Capabilities (Kompetenzen und technisches Know-how) identifiziert, die durch die Migration geschaffen werden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.6 *P1* Have we aligned with different stakeholders on their specific migration objectives (revenue generation, operational efficiency, risk reduction)?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.6 *P1* Haben wir uns mit den verschiedenen Stakeholdern über ihre spezifischen Migrationsziele abgestimmt (Umsatzsteigerung, Effizienz im Betrieb, Risikoreduktion)?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.7 *P2* Have we identified product lines or features that are unprofitable and could be discontinued rather than migrated?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.7 *P2* Haben wir Produktlinien oder Features identifiziert, die unrentabel sind und eingestellt statt migriert werden könnten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.8 *P2* Have we quantified potential time/cost savings for the business and customers?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.8 *P2* Haben wir potenzielle Zeit- und Kosteneinsparungen für das Unternehmen und die Kunden quantifiziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.9 *P2* Do we have metrics in place to measure business value before and after the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.9 *P2* Haben wir Metriken definiert, um den Nutzen für das Unternehmen vor und nach der Migration zu messen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 1.10 *P2* Have we considered using structured goal-setting frameworks like OKRs to align migration objectives with measurable business outcomes?
 
 NOTE: OKRs (Objectives and Key Results) connect high-level business objectives with specific, measurable key results that can be tracked throughout the migration.
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.10 *P2* Haben wir strukturierte Frameworks wie OKRs in Betracht gezogen, um Migrationsziele mit messbaren Geschäftsergebnissen  zu verknüpfen?
 
+NOTE: OKRs (Objectives and Key Results) verbinden abstrakte Geschäftsziele mit spezifischen, messbaren Schlüsselergebnissen, die während der Migration nachverfolgt werden können.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 1.11 *P2* Have we secured executive sponsorship with alignment on business objectives?
+endif::[]
+ifdef::lang-de[]
+* [ ] 1.11 *P2* Haben wir die Unterstützung durch die Geschäftsleitung (Executive Sponsorship) durch die Ausrichtung an Geschäftszielen sichergestellt?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Focus on tangible business value, not just "technical debt reduction." Help the team think like product owners, not just engineers.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Fokus auf greifbaren Nutzen für das Unternehmen, nicht nur "technische Schulden reduzieren." Das Team soll die Perspektive  von Product Ownern einnehmen und nicht nur an die technische Umsetzung denken.
+endif::[]
 
 ---
 
 == Current System Analysis
+ifdef::lang-en[]
 *What we're working with*
+endif::[]
+ifdef::lang-de[]
+*Was ist unser Ausgangspunkt?*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 2.1 *P1* Have we thoroughly analyzed and documented the current system architecture and dependencies?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.1 *P1* Haben wir die aktuelle Systemarchitektur und Abhängigkeiten gründlich analysiert und dokumentiert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.2 *P1* Do we understand the data models and their business relevance?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.2 *P1* Verstehen wir die Datenmodelle und ihre fachliche Relevanz?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.3 *P1* Do we know which legacy features are still used vs. obsolete?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.3 *P1* Wissen wir, welche existierenden Features noch genutzt werden und welche obsolet sind?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.4 *P1* Have we identified cross-cutting concerns (logging, security, etc.) that need redesign?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.4 *P1* Haben wir Querschnittsbelange (Logging, Security, etc.) identifiziert, die neu gestaltet werden müssen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.5 *P2* Do we understand integration points with other systems and their migration impacts?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.5 *P2* Verstehen wir die Integrationspunkte mit anderen Systemen und deren Auswirkungen auf die Migration?
+endif::[]
 
-* [ ] 2.6 *P2* Have we analyzed current operations, monitoring, and support processes for the legacy system? 
+ifdef::lang-en[]
+* [ ] 2.6 *P2* Have we analyzed current operations, monitoring, and support processes for the legacy system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.6 *P2* Haben wir die aktuellen Betriebsprozesse, Monitoring und Support-Prozesse für das Legacy-System analysiert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.7 *P2* Have we identified technical debt that should be addressed during migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.7 *P2* Haben wir technische Schulden identifiziert, die während der Migration angegangen werden sollten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.8 *P2* Have we evaluated security risks in both the legacy and target systems?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.8 *P2* Haben wir Sicherheitsrisiken sowohl im Legacy- als auch im Zielsystem bewertet?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.9 *P2* Have we traced data flows to original sources rather than assuming the legacy system is the source of truth?
 
 NOTE: Often better data exists at original source systems that was lost or degraded when passed to legacy systems.
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.9 *P2* Haben wir Datenflüsse bis zu den ursprünglichen Quellen zurückverfolgt, anstatt anzunehmen, dass das Legacy-System die "Source of Truth" ist?
 
+NOTE: Oft sind in den ursprünglichen Quellsystemen detailliertere oder qualitativ bessere Daten vorhanden als die, die momentan an das existierende Sytem weitergegeben werden.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 2.10 *P2* Have we identified any critical aggregators (reporting functions crucial to running the business)?
 
 NOTE: Reports or data aggregation processes that executives rely on to run the business, which often become bottlenecks in migrations.
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.10 *P2* Haben wir kritische Aggregatoren identifiziert (Reporting-Funktionen, die für den Geschäftsbetrieb entscheidend sind)?
 
+NOTE: Oft existieren komplexe Reporting- oder Datenaggregationsprozesse, auf die die Geschäftsleitung angewiesen ist um das Unternehmen zu führen. Werden diese erst gegen Ende der Migration berücksichtig können diese zu Show-Stoppern werden.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 2.11 *P3* Have we analyzed how current business processes are shaped by legacy system constraints?
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.11 *P3* Haben wir analysiert, wie aktuelle Geschäftsprozesse durch die Einschränkungen des Legacy-Systems geprägt sind?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 2.12 *P3* Have we explored potential event interception points (messaging, APIs, databases) to enable incremental migration?
 
-*Identify locations where you can intercept data flows between systems to gradually redirect processing to new components.*
+NOTE: Identify locations where you can intercept data flows between systems to gradually redirect processing to new components.
+endif::[]
+ifdef::lang-de[]
+* [ ] 2.12 *P3* Haben wir potenzielle Event-Interception-Points (Messaging, APIs, Datenbanken) untersucht, um eine schrittweise Migration zu ermöglichen?
 
+NOTE: Stellen identifizieren, an denen Datenflüsse zwischen Systemen abgefangen werden können, um die Verarbeitung schrittweise auf neue Komponenten umzuleiten.
+endif::[]
+
+ifdef::lang-en[]
 > **Facilitator Note:** Don't get lost too deep into technical details in the workshop. Focus on understanding the big picture and identifying what needs deeper analysis.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Nicht zu tief in technische Details im Workshop abtauchen. Fokus auf das große Ganze und darauf, was ein detailliertere Analyse erfordert.
+endif::[]
 
 ---
 
 == Stakeholder Needs
+ifdef::lang-en[]
 *Who's affected & what they actually need*
+endif::[]
+ifdef::lang-de[]
+*Wer ist davon betroffen? Welche Anliegen haben die Betroffenen?*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 3.1 *P1* Have we identified all relevant stakeholder groups (end users, business departments, IT, etc.)?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.1 *P1* Haben wir alle relevanten Stakeholder-Gruppen identifiziert (Endnutzer, Fachbereiche, IT, usw.)?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.2 *P1* Have we gathered input from end customers on their needs and pain points?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.2 *P1* Haben wir die Input von Endkunden zu ihren Bedürfnissen und "Pain Points" gesammelt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.3 *P1* Have we engaged with sales/customer service teams to understand customer expectations?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.3 *P1* Haben wir mit Sales- und Customer-Service-Teams gesprochen, um Kundenerwartungen zu verstehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.4 *P1* Do we have a communication plan to keep stakeholders informed throughout the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.4 *P1* Haben wir einen Kommunikationsplan, um Stakeholder während der gesamten Migration auf dem Laufenden zu halten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.5 *P1* Have we established feedback channels for continuous stakeholder input?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.5 *P1* Haben wir Feedback-Kanäle für kontinuierlichen Stakeholder-Input eingerichtet?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.6 *P2* Have we conducted interviews or observation sessions with frontline employees?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.6 *P2* Haben wir Interviews oder Beobachtungssessions mit den Mitarbeitern durchgeführt, die direkten Kundenkontakt haben?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.7 *P2* Have we analyzed support tickets and common user complaints?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.7 *P2* Haben wir Support-Tickets und häufige Nutzerbeschwerden analysiert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.8 *P2* Have we engaged with finance teams to understand revenue impacts of different products/features?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.8 *P2* Haben wir mit Finance-Teams gesprochen, um die Auswirkungen verschiedener Produkte/Features auf Umsatz und Gewinn zu verstehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.9 *P2* Have we defined communication cadence and key milestone updates for different stakeholder groups throughout the migration?
 
 NOTE: Different stakeholders need different update frequencies - executives might need monthly updates while end users need more frequent communication during their migration phases.
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.9 *P2* Haben wir die Kommunikationshäufigkeit und wichtige Meilenstein-Updates für verschiedene Stakeholder-Gruppen während der Migration festgelegt?
 
+NOTE: Verschiedene Stakeholder brauchen unterschiedlich oft Updates - Führungskräfte benötigen eventuell monatliche Updates, während Endnutzer während der Migration häufiger informiert werden müssen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 3.10 *P2* Have we established escalation protocols for communicating migration issues or delays to stakeholders?
 
 NOTE: Define when and how to communicate problems, who needs to be informed first, and what level of detail different groups require.
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.10 *P2* Haben wir Eskalationsprotokolle für die Kommunikation von Migrationsproblemen oder Verzögerungen an Stakeholder festgelegt?
 
+NOTE: Definieren, wann und wie Probleme kommuniziert werden, wer zuerst informiert werden muss und welche Details verschiedene Gruppen benötigen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 3.11 *P3* Have we identified off-system workarounds (spreadsheets, access databases, etc.) that have evolved around legacy limitations?
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.11 *P3* Haben wir Workarounds (Spreadsheets, Access-Datenbanken, etc.) identifiziert, die sich um die Einschränkungen des Legacy-Systems herum entwickelt haben?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 3.12 *P3* Have we involved stakeholders in identifying meaningful ways to slice the migration?
 
 NOTE: Work with business experts to break down the system into logical segments that can be migrated independently, focusing on business value rather than technical boundaries.
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.12 *P3* Haben wir Stakeholder dabei einbezogen, die Migration in sinnvolle Teilsegmente/"Slices" aufzuteilen?
 
+NOTE: Mit Fachexperten zusammenarbeiten, um das System in logische Segmente aufzuteilen, die unabhängig migriert werden können - mit Fokus auf fachlichen Wert statt auf technische Grenzen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 3.13 *P2* Do we have a plan for celebrating migration milestones and communicating wins to maintain stakeholder engagement?
 
 NOTE: Migration projects can be long - plan for recognizing progress and maintaining momentum through regular success communication.
+endif::[]
+ifdef::lang-de[]
+* [ ] 3.13 *P2* Verfügen wir über einen Plan, um Meilensteine der Migration zu feiern und Erfolge zu kommunizieren, um das Engagement der Stakeholder aufrechtzuerhalten?
 
-> **Facilitator Note:** Technical teams often underestimate stakeholder complexity. Help them understand that "users" includes many different groups with different needs.
+NOTE: Migrationsprojekte können langwierig sein – plant daher, Fortschritte anzuerkennen und die Dynamik durch regelmäßige Kommunikation über Erfolge aufrechtzuerhalten.
+endif::[]
+
+ifdef::lang-en[]
+> **Facilitator Note:** Technical teams often underestimate the complexity of stakeholder involvement. Help them understand that "users" includes many different groups with different needs.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Technische Teams unterschätzen häufig die Komplexität der Einbindung von Stakeholdern. Sie sollten verstehen, dass „Nutzer” viele verschiedene Gruppen mit unterschiedlichen Bedürfnissen umfassen.
+endif::[]
 
 ---
 
 == Organizational Constraints
+ifdef::lang-en[]
 *Reality check*
+endif::[]
+ifdef::lang-de[]
+*Reality check*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 4.1 *P1* Do we have the right mix of technical skills for both legacy and target technologies?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.1 *P1* Verfügen wir über die richtige Kombination aus technischen Fähigkeiten - sowohl für Legacy- als auch für Ziel-Technologien?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.2 *P1* Have we allocated product management resources to guide the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.2 *P1* Haben wir Ressourcen für das Produktmanagement bereitgestellt, um die Migration zu begleiten und Ziele zu definieren?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.3 *P1* Have we budgeted for potential unforeseen technical challenges?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.3 *P1* Haben wir mögliche unvorhergesehene technische Herausforderungen im Budget berücksichtigt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.4 *P1* Do we have access to subject matter experts for critical legacy components?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.4 *P1* Haben wir Zugang zu Fachexperten für kritische Legacy-Komponenten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.5 *P2* Do we have contingency plans for timeline extensions if needed?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.5 *P2* Verfügen wir über Notfallpläne für Terminverlängerungen, falls erforderlich?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.6 *P2* Have we accurately estimated the total cost of ownership for the new system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.6 *P2* Haben wir die Gesamtbetriebskosten (Total Cost of Ownership) für das neue System korrekt eingeschätzt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.7 *P2* Have we considered external expertise needs for specialized migration tasks?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.7 *P2* Haben wir den Bedarf an externem Fachwissen für spezielle Migrationsaufgaben berücksichtigt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.8 *P2* Have we budgeted for the potential parallel running of critical systems during transition phases?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.8 *P2* Haben wir die Kosten für den möglichen parallelen Betrieb kritischer Systeme während der Übergangsphase im Budget berücksichtigt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.9 *P3* Have we allocated resources for implementing and eventually removing transitional architecture components?
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.9 *P3* Haben wir Ressourcen für die Implementierung und spätere Entfernung von Komponenten der Übergangsarchitektur bereitgestellt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 4.10 *P3* Have we accounted for the time needed to collaborate with business on identifying migration slices?
 
 NOTE: Ensure the schedule includes dedicated time for workshops to analyze and define meaningful migration increments.
+endif::[]
+ifdef::lang-de[]
+* [ ] 4.10 *P3* Haben wir den Zeitaufwand eingeplant, der für die Zusammenarbeit mit den Geschäftsbereichen zur Identifizierung von Migrationsabschnitten (migration slices) erforderlich ist?
 
+NOTE: Sicherstellen, dass der Zeitplan ausreichend Zeit für Workshops zur Analyse und Definition sinnvoller Migrationsschritte vorsieht.
+endif::[]
+
+ifdef::lang-en[]
 > **Facilitator Note:** Be realistic about constraints. Technical teams tend to be optimistic about timelines and underestimate the complexity of organizational coordination.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Die Zeitplanung sollte realistisch sein. Technische Teams neigen dazu, optimistisch zu planen und die Komplexität der organisatorischen Koordination zu unterschätzen.
+endif::[]
 
 ---
 
 == Quality Goals
+ifdef::lang-en[]
 *What matters most*
+endif::[]
+ifdef::lang-de[]
+*Was wirklich zählt*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 5.1 *P1* Have we identified the top 3-5 most important quality goals for this migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.1 *P1* Haben wir die 3-5 wichtigsten Qualitätsziele für diese Migration identifiziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.2 *P1* Have we aligned quality goals with key stakeholder concerns and business drivers?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.2 *P1* Haben wir die Qualitätsziele auf die wichtigsten Anliegen der Stakeholder und die entscheidenden geschäftlichen Ziele abgestimmt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.3 *P1* Have we established measurable criteria for each quality goal?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.3 *P1* Haben wir für jedes Qualitätsziel messbare Kriterien festgelegt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.4 *P1* Have we prioritized quality goals when they conflict with each other?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.4 *P1* Haben wir Qualitätsziele priorisiert, wenn sie miteinander in Konflikt stehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.5 *P2* Have we defined how to measure the success of the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.5 *P2* Haben wir definiert, wie wir den Erfolg der Migration messen werden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.6 *P2* Do we have plans to collect user feedback after implementation?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.6 *P2* Beabsichtigen wir, nach der Implementierung Nutzerfeedback einzuholen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.7 *P2* Have we established a process for addressing issues and enhancements post-launch?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.7 *P2* Haben wir einen Prozess für die Bearbeitung von Problemen und Verbesserungen nach dem (Neu-)Start eingerichtet?
+endif::[]
 
-* [ ] 5.8 *P2* Can we validate that the promised benefits (e.g. faster time to market, lower cost of change) are actually realized?
+ifdef::lang-en[]
+* [ ] 5.8 *P2* Can we validate that the promised benefits (e.g. faster time to market, lower cost of change, etc.) are actually realized?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.8 *P2* Können wir überprüfen, ob die versprochenen Vorteile (z. B. schnellere Time-to-Market, geringere Änderungskosten, etc.) tatsächlich verwirklicht werden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.9 *P3* Have we established processes to ensure we don't accumulate technical debt in the new system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.9 *P3* Haben wir Prozesse etabliert, um sicherzustellen, dass wir im neuen System keine technischen Schulden ansammeln?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 5.10 *P3* Do we have a plan for implementing continuous delivery practices that might have been promised in the business case?
+endif::[]
+ifdef::lang-de[]
+* [ ] 5.10 *P3* Verfügen wir über einen Plan zur Umsetzung der im Business Case möglicherweise zugesagten Continuous-Delivery-Praktiken?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Quality goals should be specific and measurable, not generic "better performance." Help the team connect quality attributes to real business outcomes.
-
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Qualitätsziele sollten spezifisch und messbar sein, nicht allgemein wie „bessere Performance“. Das Team sollte dabei unterstützt werden, Qualitätsmerkmale mit tatsächlichen Geschäftsergebnissen zu verknüpfen.
+endif::[]
 ---
 
 == Technical Constraints
+ifdef::lang-en[]
 *Technical stuff we can't change*
+endif::[]
+ifdef::lang-de[]
+*Technische Sachen, die wir nicht/kaum ändern können*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 6.1 *P1* Have we identified legacy interfaces that must be maintained during and after migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.1 *P1* Haben wir Legacy-Schnittstellen identifiziert, die während und nach der Migration beibehalten werden müssen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.2 *P1* Do we understand technology stack requirements or limitations?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.2 *P1* Verstehen wir die Anforderungen oder Einschränkungen unseres Technologie-Stacks?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.3 *P1* Have we mapped integration points with external systems?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.3 *P1* Haben wir Integrationspunkte mit externen Systemen erfasst?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.4 *P1* Do we know infrastructure and deployment constraints we must work within?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.4 *P1* Kennen wir die Infrastruktur- und Deployment-Constraints, mit denen wir arbeiten müssen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.5 *P2* Have we evaluated what regulatory or compliance requirements constrain our technical choices?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.5 *P2* Haben wir geprüft, welche regulatorischen oder Compliance-Anforderungen unsere technischen Entscheidungen einschränken?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.6 *P2* Do we understand data residency or sovereignty requirements?
 
 NOTE: Where data must be stored, how it can be processed, and which laws apply to it based on geographic location.
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.6 *P2* Verstehen wir die Anforderungen an Data Residency oder Data Sovereignty?
 
+NOTE: Wo Daten gespeichert werden müssen, wie sie verarbeitet werden können und welche Gesetze am geografischen Standort gelten.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 6.7 *P2* Have we identified any vendor lock-in situations that limit our options?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.7 *P2* Haben wir Vendor-Lock-ins identifiziert, die unsere Optionen einschränken?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.8 *P2* Do we know what existing licenses or contracts affect our technology choices?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.8 *P2* Wissen wir, welche bestehenden Lizenzen oder Verträge unsere Technologie-Entscheidungen beeinflussen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.9 *P3* Have we evaluated the impact of existing monitoring and operational tooling on our choices?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.9 *P3* Haben wir die Auswirkungen der vorhandenen Monitoring- und operationellen Tools auf unsere Entscheidungen bewertet?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 6.10 *P3* Do we understand network and security constraints that may affect the new architecture?
+endif::[]
+ifdef::lang-de[]
+* [ ] 6.10 *P3* Kennen wir Netzwerk- und Sicherheitseinschränkungen, die sich auf die neue Architektur auswirken könnten?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Technical constraints are often the most comfortable area for technical teams, but don't let them get stuck here. Keep the focus on constraints that truly limit options.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Technische Constraints sind oft der Bereich, in dem sich technische Teams am wohlsten fühlen, aber sie sollten sich nicht darin verlieren. Fokus auf Einschränkungen legen, die tatsächlich den Spielraum einschränken.
+endif::[]
 
 ---
 
 == Migration Strategy
+ifdef::lang-en[]
 *How we're going to do this*
+endif::[]
+ifdef::lang-de[]
+*Wie gehen wir das an?*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 7.1 *P1* Have we designed an iterative/incremental approach that reduces risk?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.1 *P1* Haben wir einen iterativen/inkrementellen Ansatz entwickelt, der Risiken minimiert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.2 *P1* Have we identified suitable candidates for early migration?
 
-NOTE: Considering both high-value components and low-hanging fruit, with clear criteria for what constitutes meaningful early wins (e.g. 10% revenue threshold)?
+NOTE: Considering both high-value components and low-hanging fruits, with clear criteria for what constitutes meaningful early wins (e.g. 10% revenue threshold)?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.2 *P1* Haben wir geeignete Bereiche/Komponenten für eine frühzeitige Migration identifiziert?
 
+NOTE: Berücksichtigung sowohl anspruchsvoller/wichtiger Komponenten als auch "low-hanging fruits" mit klaren Kriterien dafür, was ernstzunnehmende erste Erfolge sind (z. B. 10% des Umsatzes)
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 7.3 *P1* Do we have a data migration strategy that ensures business continuity?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.3 *P1* Haben wir eine Datenmigrationsstrategie, die die Geschäftskontinuität sicherstellt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.4 *P1* Have we explicitly ruled out big bang approaches in favor of incremental migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.4 *P1* Haben wir Big-Bang-Ansätze explizit ausgeschlossen und setzen stattdessen auf schrittweise Migration?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.5 *P1* Have we explored different slicing approaches?
 
 NOTE: Consider options like migrating by product line, user group, business capability, or user journey to find the most effective approach.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.5 *P1* Haben wir verschiedene Slicing-Ansätze untersucht?
 
+NOTE: Optionen wie Migration nach Produktlinie, Nutzergruppe, Geschäftsfähigkeit (business capability) oder Benutzererfahrung betrachten, um den effektivsten Ansatz zu finden.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 7.6 *P1* Have we planned for parallel operations during transition if needed?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.6 *P1* Haben wir gegebenenfalls einen Parallelbetrieb während der Übergangsphase vorgesehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.7 *P1* Have we considered tackling critical aggregators (essential reports/functions) early rather than last? Which?
 
 NOTE: Consider replacing critical reports first rather than leaving them until the end where they can block complete migration.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.7 *P1* Haben wir in Betracht gezogen, kritische Aggregatoren (wichtige Reports/Funktionen) frühzeitig anzugehen, anstatt sie bis zum Schluss aufzuschieben? Welche?
 
+NOTE: Kritische Reports zuerst ersetzen, anstatt sie bis zum Ende aufzuschieben, wo sie die vollständige Migration blockieren können.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 7.8 *P1* Have we avoided the feature parity trap by focusing on business needs rather than replicating all existing functionality?
 
 NOTE: Resist the temptation to simply recreate the existing system with newer technology.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.8 *P1* Haben wir die Feature-Parity-Falle vermieden, indem wir uns auf Geschäftsanforderungen konzentrieren statt alle bestehenden Funktionen zu replizieren?
 
+NOTE: Das bestehende System einfach mit neuerer Technologie nachzubauen ist oft keine gute Idee.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 7.9 *P1* Have we considered implementing frequent delivery practices from the beginning of the migration to validate future delivery capabilities?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.9 *P1* Haben wir von Beginn der Migration an die Einführung von Continous Delivery in Betracht gezogen, um künftige CI/CD-Fähigkeiten zu validieren?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.10 *P2* Have we defined rollback procedures in case of migration issues?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.10 *P2* Haben wir Rollback-Prozeduren für den Fall von Migrationsproblemen festgelegt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.11 *P2* Do we have a plan for handling legacy system maintenance during migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.11 *P2* Verfügen wir über einen Plan für die Wartung von Bestandssystemen während der Migration?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.12 *P2* Have we established a testing strategy for verifying functionality post-migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.12 *P2* Haben wir eine Teststrategie zur Überprüfung der Funktionalität nach der Migration festgelegt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 7.13 *P2* Have we planned for performance and load testing at each migration phase to ensure the new system can handle production workloads?
 
 NOTE: Consider testing both individual migrated components and the overall system performance as load shifts between old and new systems.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.13 *P2* Haben wir Performance- und Lasttests für jede Migrationsphase geplant, um sicherzustellen, dass das neue System die tatsächlichen Lasten im Produktivbetrieb bewältigen kann?
 
+NOTE: Tests sowohl für einzelne migrierte Komponenten als auch für die Gesamtsystemperformance einplanen, während sich die Last zwischen altem und neuem System verschiebt.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 7.14 *P2* Do we have a strategy for testing data integrity and consistency between old and new systems during parallel operations?
 
 NOTE: Include plans for automated data reconciliation checks and handling of data discrepancies during transition.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.14 *P2* Verfügen wir über eine Strategie zur Prüfung der Datenintegrität und -konsistenz zwischen alten und neuen Systemen während des parallelen Betriebs?
 
+NOTE: Pläne für automatisierte Datenabgleichprüfungen und zur Behandlung von Abweichungen während der Umstellung berücksichtigen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 7.15 *P3* Have we explored applying the Strangler Fig and Bridge to the New Town patterns to gradually replace functionality?
 
 NOTE: Patterns where new functionality gradually takes over from legacy code by intercepting calls (Strangler Fig) or through intermediate connecting layers during transition (Bridge to the New Town). When deciding for a pattern like Strangler Fig, also consider that while functionality migration may be straightforward, data migration complexity can be significantly higher.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.15 *P3* Haben wir die Anwendung des Strangler-Fig- und des Bridge-to-the-New-Town-Patterns in Erwägung gezogen, um Funktionalität schrittweise zu ersetzen?
 
+NOTE: Muster, bei denen neue Funktionen nach und nach den alten Code ablösen, indem Aufrufe abgefangen werden (Strangler Fig) oder durch Verbindungskomponenten während der Übergangszeit an das Bestandssystem durchgereicht werden (Bridge to the New Town). Bei der Entscheidung für ein Muster wie Strangler Fig sollte auch berücWasksichtigt werden, dass die Funktionsmigration zwar unkompliziert sein kann, die Datenmigration jedoch deutlich komplexer sein kann.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 7.16 *P3* Have we designed necessary transitional architecture components with clear plans for their eventual removal?
 
 NOTE: Temporary components needed during migration that should be removed once they're no longer needed.
+endif::[]
+ifdef::lang-de[]
+* [ ] 7.16 *P3* Haben wir die erforderlichen Komponenten der Übergangsarchitektur mit klaren Plänen für deren spätere Entfernung entworfen?
 
+NOTE: Temporäre Komponenten, die während der Migration benötigt werden und entfernt werden sollten, sobald sie nicht mehr gebraucht werden.
+endif::[]
+
+ifdef::lang-en[]
 > **Facilitator Note:** Migration strategy often generates the most debate. Focus on establishing principles (incremental, value-driven) rather than detailed execution plans in the workshop.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Die Migrationsstrategie ist häufig Gegenstand intensiver Diskussionen. Im Workshop sollte der Schwerpunkt auf der Festlegung von Grundsätzen (inkrementell, wertorientiert) liegen und nicht auf detaillierten Ausführungsplänen.
+endif::[]
 
 ---
 
 == Key Architectural Decisions
+ifdef::lang-en[]
 *Critical decisions that shape the migration*
+endif::[]
+ifdef::lang-de[]
+*Kritische Entscheidungen, die die Migration prägen*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 8.1 *P1* Have we made key technology stack decisions for the target architecture?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.1 *P1* Haben wir wichtige Entscheidungen zum Technologie-Stack für die Zielarchitektur getroffen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.2 *P1* Have we decided on the overall migration pattern (Strangler, Big Bang, Event Interception, etc.)?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.2 *P1* Haben wir uns für ein Migrationsmuster entschieden (Strangler, Big Bang, Event Interception usw.)?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.3 *P1* Have we chosen our approach to data migration and synchronization?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.3 *P1* Haben wir einen Lösungsansatz für die Datenmigration und -synchronisierung festgelegt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.4 *P1* Have we decided how to handle integration with systems that aren't being migrated?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.4 *P1* Haben wir entschieden, wie wir mit der Integration von Systemen umgehen, die nicht migriert werden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.5 *P1* Have we established short feedback loops for early validation of migration approaches?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.5 *P1* Haben wir kurze Feedback-Loops für die frühezeitige Validierung von Migrationsansätzen eingerichtet?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.6 *P1* Are we regularly providing business value through incremental delivery?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.6 *P1* Schaffen wir regelmäßig geschäftlichen Mehrwert durch inkrementelle Bereitstellung?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.7 *P1* Do we have a clear ownership model for components during transition and after migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.7 *P1* Verfügen wir über ein klares Ownership-Model für Komponenten während der Übergangsphase und nach der Migration?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.8 *P2* Have we chosen patterns for maintaining data consistency during migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.8 *P2* Haben wir Muster oder Lösungsansätze für die Gewährleistung der Datenkonsistenz während der Migration bestimmt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.9 *P2* Have we decided on our testing and validation approach for migration increments?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.9 *P2* Haben wir uns für einen Test- und Validierungsansatz für Migrationsinkremente entschieden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.10 *P2* Can we implemented frequent releases to prove our ability to deliver quickly post-migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.10 *P2* Können wir häufige Releases anbieten, um unsere Fähigkeit zur schnellen Bereitstellung nach der Migration unter Beweis zu stellen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.11 *P2* Have we considered test automation that supports rapid, confident changes?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.11 *P2* Haben wir Testautomatisierung in Betracht gezogen, die schnelle und sichere Änderungen unterstützt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.12 *P2* Have we documented architectural decisions for future reference?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.12 *P2* Haben wir Architekturentscheidungen dokumentiert, um später darauf zurückgreifen zu können?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.13 *P3* Have we decided on our approach to handling transitional states and dual-system operations?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.13 *P3* Haben wir Ansätze zum Umgang mit Übergangszuständen und für den gleichzeitigen Betrieb von zwei Systemen entwickelt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.14 *P3* Have we decided on monitoring and observability approaches for the migration process?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.14 *P3* Haben wir uns für Monitoring- und Observability-Ansätze für den Migrationsprozess entschieden?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.15 *P3* Have we chosen our approach to feature flags or configuration management during transition?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.15 *P3* Haben wir Ansätze für z. B. Feature-Flags oder das Konfigurationsmanagement während der Übergangsphase angedacht?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.16 *P3* Are we "building as we mean to continue" with the same practices we want post-migration?
 
 NOTE: If the goal is to release every two weeks post-migration, start releasing every two weeks during migration.
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.16 *P3* Entwickeln wir so, wie wir es auch nach der Migration tun wollen, d. h. mit denselben Praktiken und Vorgehensweisen, die wir nach der Migration beibehalten möchten?
 
+NOTE:  Wenn das Ziel darin besteht, nach der Migration alle zwei Wochen ein Release zu veröffentlichen, sollten wir bereits während der Migration damit beginnen, alle zwei Wochen ein Release zu veröffentlichen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 8.17 *P3* Do we have a plan to eventually decommission any remaining legacy components?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.17 *P3* Haben wir einen Plan, um eventuell verbleibende Legacy-Komponenten außer Betrieb zu nehmen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 8.18 *P3* Have we designed our testing approach to validate that migrated functionality performs equivalently to legacy systems under real-world conditions?
 
 NOTE: Beyond functional testing, ensure performance, reliability, and user experience match or exceed legacy system capabilities.
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.18 *P3* Haben wir unseren Testansatz so konzipiert, dass wir überprüfen können, ob die migrierten Funktionen unter realen Bedingungen die gleiche Leistung wie die Legacy-Systeme erbringen?
 
+NOTE: Zusätzlich zu funktionalen Tests ist sicherzustellen, dass Leistung, Zuverlässigkeit und Benutzererfahrung den Fähigkeiten des Legacy-Systems entsprechen oder diese übertreffen.
+endif::[]
+
+ifdef::lang-en[]
 * [ ] 8.19 *P3* Have we considered approaches for parallel performance measurement and validation (such as tools like GitHub Scientist) to compare old and new system behavior under real conditions?
+endif::[]
+ifdef::lang-de[]
+* [ ] 8.19 *P3* Haben wir Ansätze für die parallele Leistungsmessung und -validierung (z. B. Tools wie GitHub Scientist) in Betracht gezogen, um das Verhalten des alten und des neuen Systems unter realen Bedingungen zu vergleichen?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Focus on decisions that can't be easily changed later. Avoid getting bogged down in implementation details that can be refined during execution.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Fokus auf Entscheidungen, die später nicht einfach geändert werden können. Nicht in Implementierungsdetails verzetteln, die während der Umsetzung verfeinert werden können.
+endif::[]
 
 ---
 
 == Risks & Mitigation
+ifdef::lang-en[]
 *What could go wrong & how we'll handle it*
+endif::[]
+ifdef::lang-de[]
+*Was könnte schiefgehen und wie gehen wir damit um?*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 9.1 *P1* Have we identified the top technical risks that could derail the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.1 *P1* Haben wir die wichtigsten technischen Risiken identifiziert, die die Migration beeinträchtigen könnten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.2 *P1* Have we identified business continuity risks during the migration process?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.2 *P1* Haben wir Risiken für die Geschäftskontinuität (business continuity) während des Migrationsprozesses identifiziert?
+endif::[]
 
-* [ ] 9.3 *P1* Do we have data migration risks and verification strategies identified?
+ifdef::lang-en[]
+* [ ] 9.3 *P1* Do we have data migration risks and possible verification strategies identified?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.3 *P1* Haben wir Risiken der Datenmigration und mögliche Verifikationsstrategien identifiziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.4 *P1* Have we planned contingencies for our most critical dependencies?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.4 *P1* Haben wir Notfallpläne für unsere kritischsten Abhängigkeiten erstellt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.5 *P1* Have we identified potential resistance points among user groups?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.5 *P1* Haben wir mögliche Vorbehalte und Widerstände bei Anwendergruppen identifiziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.6 *P2* Do we have a plan to address fears about job security or role changes?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.6 *P2* Verfügen wir über einen Plan, um Ängste und Bedenken hinsichtlich der Arbeitsplatzsicherheit oder von Rollenänderungen auszuräumen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.7 *P2* Have we accounted for training needs for different user groups?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.7 *P2* Haben wir den Schulungsbedarf für verschiedene Nutzergruppen berücksichtigt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.8 *P2* Do we understand how daily workflows will change and how to support that transition?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.8 *P2* Verstehen wir, wie sich tägliche Arbeitsabläufe ändern werden und wie wir diesen Übergang unterstützen können?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.9 *P2* Have we prepared users and stakeholders for potential temporary disparities in user experience during phased migration?
-
 NOTE: During incremental migration, users may experience different interfaces when moving between old and new system components.
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.9 *P2* Haben wir die Benutzer und Stakeholder auf mögliche vorübergehende Unterschiede in der Benutzererfahrung während der schrittweisen Migration vorbereitet?
+NOTE: Während einer schrittweisen Migration können Benutzer beim Wechsel zwischen alten und neuen Systemkomponenten unterschiedliche Benutzeroberflächen vorfinden.
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.10 *P2* Do we have champions in each business unit to help promote the change?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.10 *P2* Verfügen wir in jeder Geschäftseinheit über Fürsprecher, die die Veränderungen unterstützen und begleiten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.11 *P3* Have we communicated the benefits of the new system to all affected parties?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.11 *P3* Haben wir die Vorteile des neuen Systems an alle betroffenen Stakeholdergruppen kommuniziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.12 *P3* Have we considered how to manage workload during the transition period?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.12 *P3* Haben wir berücksichtigt, wie wir die Arbeitsbelastung während der Übergangsphase bewältigen können?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.13 *P2* Have we avoided heavyweight change processes that contradict our future delivery goals?
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.13 *P2* Haben wir schwergewichtige Veränderungsprozesse vermieden, die unseren zukünftigen Delivery-Zielen widersprechen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 9.14 *P3* Have we addressed the organizational behaviors that led to the legacy situation in the first place?
-
 NOTE: Consider what patterns of decision-making or organizational culture contributed to the legacy situation and how to change them.
+endif::[]
+ifdef::lang-de[]
+* [ ] 9.14 *P3* Haben wir uns mit den organisatorischen Verhaltensweisen befasst, die überhaupt erst zu der bisherigen Situation geführt haben?
+NOTE: Welche Muster der Entscheidungsfindung oder der Organisationskultur haben zur existierenden Situation beigetragen und wie könnte man diese ändern?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Risk identification often reveals gaps in earlier analysis. Use risks to validate previous sections and identify areas needing more detailed planning.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Die Risikoidentifizierung deckt häufig Lücken in früheren Analysen auf. Wissen zu Risiken nutzen, um vorherige Abschnitte zu validieren und Bereiche zu identifizieren, die einer detaillierteren Planung bedürfen.
+endif::[]
+
 
 ---
-
+ifdef::lang-en[]
 == System Consolidation (if applicable, not in canvas)
 *Special considerations when merging multiple legacy systems*
+endif::[]
+ifdef::lang-de[]
+== System Consolidation (falls zutreffend, nicht in Canvas)
+*Besonderheiten bei der Zusammenführung mehrerer Legacy-Systeme*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 10.1 *P1* Have we mapped feature parity requirements between the systems being consolidated?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.1 *P1* Haben wir Anforderungen an die Funktionsgleichheit (feature parity) zwischen den zu konsolidierenden Systemen erfasst?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.2 *P1* Do we understand the different user experiences and expectations for each system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.2 *P1* Verstehen wir die unterschiedlichen Benutzererfahrungen und -erwartungen für jedes System?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.3 *P1* Have we identified potential conflicts in business processes between systems?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.3 *P1* Haben wir potenzielle Konflikte in den Geschäftsprozessen zwischen den Systemen identifiziert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.4 *P1* Do we have a strategy for data reconciliation between disparate systems?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.4 *P1* Haben wir eine Strategie für den Datenabgleich zwischen unterschiedlichen Systemen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.5 *P2* Have we established decision-making criteria for resolving conflicting requirements?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.5 *P2* Haben wir Entscheidungskriterien für die Konfliktlösung bei widersprüchlichen Anforderungen festgelegt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.6 *P2* Do we understand the organizational impacts of merging user communities?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.6 *P2* Verstehen wir die organisatorischen Auswirkungen der Zusammenführung von Nutzergruppen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.7 *P2* Have we documented terminology differences to ensure consistent understanding?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.7 *P2* Haben wir bestehende Unterschiede in der Verwendung von Fachbegriffen dokumentiert, um ein einheitliches Verständnis zu gewährleisten?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 10.8 *P3* Have we re-evaluated the assumption that all systems need to be consolidated rather than some retired?
+endif::[]
+ifdef::lang-de[]
+* [ ] 10.8 *P3* Haben wir die Annahme hinterfragt, dass alle Systeme konsolidiert werden müssen (anstatt einige stillzulegen)?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** System consolidation adds significant complexity. If applicable, ensure these questions get P1 attention as they fundamentally impact migration strategy.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:**  Die Konsolidierung von Systemen erhöht die Komplexität erheblich. Falls zutreffend, dafür sorgen, dass diese Fragen P1-Status erhalten, da sie grundlegende Auswirkungen auf die Migrationsstrategie haben.
+endif::[]
 
 ---
 
+ifdef::lang-en[]
 == Post-Migration Success (if applicable, not in canvas)
 *Ensuring we actually deliver the promised business value*
+endif::[]
+ifdef::lang-de[]
+== Post-Migration Success (falls zutreffend, nicht in Canvas)
+*Sicherstellen, dass wir den versprochenen Mehrwert auch tatsächlich erbringen*
+endif::[]
 
-
+ifdef::lang-en[]
 * [ ] 11.1 *P1* Do we have a maintenance and support plan for the new system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.1 *P1* Haben wir einen Wartungs- und Support-Plan für das neue System?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.2 *P1* Do we have data/metrics to measure the success of the migration?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.2 *P1* Haben wir Daten/Metriken, um den Erfolg der Migration zu messen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.3 *P1* Do we have knowledge transfer plans to operational teams?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.3 *P1* Haben wir Pläne für den Wissenstransfer an die operativen Teams?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.4 *P1* Have we documented architectural decisions for future reference?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.4 *P1* Haben wir Architekturentscheidungen dokumentiert?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.5 *P2* Do we have plans to collect user feedback after implementation?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.5 *P2* Planen wir, nach der Implementierung Nutzer-Feedback zu sammeln?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.6 *P2* Have we established a process for addressing issues and enhancements post-launch?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.6 *P2* Haben wir einen Prozess etabliert, um mit Problemen und Verbesserungsvorschläge nach der Einführung umzugehen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.7 *P2* Have we validated that the promised benefits (faster time to market, lower cost of change) are actually realized?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.7 *P2*  Haben wir überprüft, ob die versprochenen Vorteile (z. B. schnellere Markteinführung, geringere Änderungskosten) tatsächlich eingetreten sind?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.8 *P2* Have we implemented continuous delivery practices that were promised in the business case?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.8 *P2* Haben wir die eventuell im Business Case versprochenen Continuous-Delivery-Praktiken umgesetzt?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.9 *P2* Have we scheduled a retrospective to capture lessons learned?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.9 *P2* Haben wir eine Retrospektive geplant, um gewonnene Erkenntnisse zu sammeln?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.10 *P3* Have we established processes to ensure we don't accumulate technical debt in the new system?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.10 *P3* Haben wir Prozesse etabliert, um sicherzustellen, dass sich im neuen System keine technischen Schulden anhäufen?
+endif::[]
 
+ifdef::lang-en[]
 * [ ] 11.11 *P3* Do we have a plan to eventually decommission any remaining legacy components?
+endif::[]
+ifdef::lang-de[]
+* [ ] 11.11 *P3* Haben wir einen Plan, um eventuell verbleibende Legacy-Komponenten außer Betrieb zu nehmen?
+endif::[]
 
+ifdef::lang-en[]
 > **Facilitator Note:** Post-migration success is where many projects fail. Technical completion ≠ business success. Ensure the team commits to measuring and validating actual business outcomes.
+endif::[]
+ifdef::lang-de[]
+> **Hinweis:** Die Bewertung des Erfolgs nach der Migration kommt oft zu kurz. Die Technische Fertigstellung garantiert noch nicht den wirtschaftlichen Erfolg. Sicherstellen, dass tatsächliche Geschäftsergebnisse gemessen und überprüft werden.
+endif::[]
 
 
 ifdef::lang-en[]
@@ -466,14 +1276,10 @@ endif::[]
 ifdef::lang-de[]
 == Workshop-Zusammenfassung & Nächste Schritte
 
-*Wichtige Entscheidungen:*
-
-*Identifizierte kritische Risiken:*
-
-*Sofortige Folgeaktionen:*
-
-*Wichtige Folgeaktionen:*
-
-*Zukünftige Überlegungen:*
+* *Wichtige Entscheidungen:*
+* *Identifizierte kritische Risiken:*
+* *Unmittelbare Folgemaßnahmen:*
+* *Wichtige Folgemaßnahmen:*
+* *Zukünftige Überlegungen:*
 endif::[]
 ---
