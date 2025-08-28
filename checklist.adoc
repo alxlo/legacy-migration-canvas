@@ -617,7 +617,7 @@ endif::[]
 ifdef::lang-de[]
 * [ ] 6.6 *P2* Verstehen wir die Anforderungen an Data Residency oder Data Sovereignty?
 
-NOTE: Wo Daten gespeichert werden müssen, wie sie verarbeitet werden können und welche Gesetze basierend auf dem geografischen Standort gelten.
+NOTE: Wo Daten gespeichert werden müssen, wie sie verarbeitet werden können und welche Gesetze am geografischen Standort gelten.
 endif::[]
 
 ifdef::lang-en[]
