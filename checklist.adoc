@@ -48,7 +48,7 @@ Diese Checkliste ist für die Arbeit mit dem Legacy Migration Canvas während ei
 - *P3 (Ergänzend)*: Weitere Fragestellungen, die eventuell wichtig sein könnten (kommt drauf an).
 
 
-> **Hinweis:** Mit P1-Fragen beginnen, um den Canvas möglichst vollständig abzudecken. P2/P3 behandeln wenn Zeit dafür ist oder um Aufgaben für deren Klärung zu verteilen.
+> **Hinweis:** Mit P1-Fragen beginnen, um den Canvas möglichst vollständig abzudecken. P2/P3 behandeln, wenn Zeit dafür ist, oder um Aufgaben für deren Klärung zu verteilen.
 
 endif::[]
 
@@ -131,7 +131,7 @@ ifdef::lang-en[]
 NOTE: OKRs (Objectives and Key Results) connect high-level business objectives with specific, measurable key results that can be tracked throughout the migration.
 endif::[]
 ifdef::lang-de[]
-* [ ] 1.10 *P2* Haben wir strukturierte Frameworks wie OKRs in Betracht gezogen, um Migrationsziele mit messbaren Geschäftsergebnissen  zu verknüpfen?
+* [ ] 1.10 *P2* Haben wir strukturierte Frameworks wie OKRs in Betracht gezogen, um Migrationsziele mit messbaren Geschäftsergebnissen zu verknüpfen?
 
 NOTE: OKRs (Objectives and Key Results) verbinden abstrakte Geschäftsziele mit spezifischen, messbaren Schlüsselergebnissen, die während der Migration nachverfolgt werden können.
 endif::[]
@@ -140,21 +140,21 @@ ifdef::lang-en[]
 * [ ] 1.11 *P2* Have we secured executive sponsorship with alignment on business objectives?
 endif::[]
 ifdef::lang-de[]
-* [ ] 1.11 *P2* Haben wir die Unterstützung durch die Geschäftsleitung (Executive Sponsorship) durch die Ausrichtung an Geschäftszielen sichergestellt?
+* [ ] 1.11 *P2* Haben wir die Unterstützung durch die Geschäftsleitung (Executive Sponsorship) durch die Ausrichtung an den Geschäftszielen sichergestellt?
 endif::[]
 
 ifdef::lang-en[]
-> **Facilitator Note:** Focus on tangible business value, not just "technical debt reduction." Help the team think like product owners, not just engineers.
+> **Facilitator Note:** Focus on tangible business value, not just "technical debt reduction". Help the team think like product owners, not just engineers.
 endif::[]
 ifdef::lang-de[]
-> **Hinweis:** Fokus auf greifbaren Nutzen für das Unternehmen, nicht nur "technische Schulden reduzieren." Das Team soll die Perspektive  von Product Ownern einnehmen und nicht nur an die technische Umsetzung denken.
+> **Hinweis:** Fokus auf greifbaren Nutzen für das Unternehmen, nicht nur "technische Schulden reduzieren". Das Team soll die Perspektive von Product Ownern einnehmen und nicht nur an die technische Umsetzung denken.
 endif::[]
 
 ---
 
 == Current System Analysis
 ifdef::lang-en[]
-*What we're working with*
+*What we're working with?*
 endif::[]
 ifdef::lang-de[]
 *Was ist unser Ausgangspunkt?*
@@ -230,12 +230,12 @@ endif::[]
 ifdef::lang-en[]
 * [ ] 2.10 *P2* Have we identified any critical aggregators (reporting functions crucial to running the business)?
 
-NOTE: Reports or data aggregation processes that executives rely on to run the business, which often become bottlenecks in migrations.
+NOTE: Reports or data aggregation processes that executives rely on to run the business, which often become show-stoppers in migrations.
 endif::[]
 ifdef::lang-de[]
 * [ ] 2.10 *P2* Haben wir kritische Aggregatoren identifiziert (Reporting-Funktionen, die für den Geschäftsbetrieb entscheidend sind)?
 
-NOTE: Oft existieren komplexe Reporting- oder Datenaggregationsprozesse, auf die die Geschäftsleitung angewiesen ist um das Unternehmen zu führen. Werden diese erst gegen Ende der Migration berücksichtig können diese zu Show-Stoppern werden.
+NOTE: Oft existieren komplexe Reporting- oder Datenaggregationsprozesse, auf die die Geschäftsleitung angewiesen ist, um das Unternehmen zu führen. Werden diese erst gegen Ende der Migration berücksichtig, können diese zu Show-Stoppern werden.
 endif::[]
 
 ifdef::lang-en[]
@@ -260,14 +260,14 @@ ifdef::lang-en[]
 > **Facilitator Note:** Don't get lost too deep into technical details in the workshop. Focus on understanding the big picture and identifying what needs deeper analysis.
 endif::[]
 ifdef::lang-de[]
-> **Hinweis:** Nicht zu tief in technische Details im Workshop abtauchen. Fokus auf das große Ganze und darauf, was ein detailliertere Analyse erfordert.
+> **Hinweis:** Nicht zu tief in technische Details im Workshop abtauchen. Der Fokus liegt auf dem großen Ganzen und darauf, was eine detailliertere Analyse erfordert.
 endif::[]
 
 ---
 
 == Stakeholder Needs
 ifdef::lang-en[]
-*Who's affected & what they actually need*
+*Who's affected & what they actually need?*
 endif::[]
 ifdef::lang-de[]
 *Wer ist davon betroffen? Welche Anliegen haben die Betroffenen?*
@@ -482,10 +482,10 @@ endif::[]
 
 == Quality Goals
 ifdef::lang-en[]
-*What matters most*
+*What matters most?*
 endif::[]
 ifdef::lang-de[]
-*Was wirklich zählt*
+*Was zählt wirklich?*
 endif::[]
 
 ifdef::lang-en[]
@@ -603,7 +603,7 @@ ifdef::lang-de[]
 endif::[]
 
 ifdef::lang-en[]
-* [ ] 6.5 *P2* Have we evaluated what regulatory or compliance requirements constrain our technical choices?
+* [ ] 6.5 *P2* Have we evaluated the regulatory and compliance requirements that constrain our technical choices?
 endif::[]
 ifdef::lang-de[]
 * [ ] 6.5 *P2* Haben wir geprüft, welche regulatorischen oder Compliance-Anforderungen unsere technischen Entscheidungen einschränken?
@@ -659,7 +659,7 @@ endif::[]
 
 == Migration Strategy
 ifdef::lang-en[]
-*How we're going to do this*
+*How we're going to do this?*
 endif::[]
 ifdef::lang-de[]
 *Wie gehen wir das an?*
@@ -716,12 +716,12 @@ ifdef::lang-de[]
 endif::[]
 
 ifdef::lang-en[]
-* [ ] 7.7 *P1* Have we considered tackling critical aggregators (essential reports/functions) early rather than last? Which?
+* [ ] 7.7 *P1* Have we considered tackling critical aggregators (essential reports/functions) early rather than last? Which ones are they?
 
 NOTE: Consider replacing critical reports first rather than leaving them until the end where they can block complete migration.
 endif::[]
 ifdef::lang-de[]
-* [ ] 7.7 *P1* Haben wir in Betracht gezogen, kritische Aggregatoren (wichtige Reports/Funktionen) frühzeitig anzugehen, anstatt sie bis zum Schluss aufzuschieben? Welche?
+* [ ] 7.7 *P1* Haben wir in Betracht gezogen, kritische Aggregatoren (wichtige Reports/Funktionen) frühzeitig anzugehen, anstatt sie bis zum Schluss aufzuschieben? Welche sind es?
 
 NOTE: Kritische Reports zuerst ersetzen, anstatt sie bis zum Ende aufzuschieben, wo sie die vollständige Migration blockieren können.
 endif::[]
@@ -795,7 +795,7 @@ endif::[]
 ifdef::lang-de[]
 * [ ] 7.15 *P3* Haben wir die Anwendung des Strangler-Fig- und des Bridge-to-the-New-Town-Patterns in Erwägung gezogen, um Funktionalität schrittweise zu ersetzen?
 
-NOTE: Muster, bei denen neue Funktionen nach und nach den alten Code ablösen, indem Aufrufe abgefangen werden (Strangler Fig) oder durch Verbindungskomponenten während der Übergangszeit an das Bestandssystem durchgereicht werden (Bridge to the New Town). Bei der Entscheidung für ein Muster wie Strangler Fig sollte auch berücWasksichtigt werden, dass die Funktionsmigration zwar unkompliziert sein kann, die Datenmigration jedoch deutlich komplexer sein kann.
+NOTE: Muster, bei denen neue Funktionen nach und nach den alten Code ablösen, indem Aufrufe abgefangen werden (Strangler Fig) oder durch Verbindungskomponenten während der Übergangszeit an das Bestandssystem durchgereicht werden (Bridge to the New Town). Bei der Entscheidung für ein Muster wie Strangler Fig sollte auch berücksichtigt werden, dass die Funktionsmigration zwar unkompliziert sein kann, die Datenmigration jedoch deutlich komplexer sein kann.
 endif::[]
 
 ifdef::lang-en[]
@@ -978,7 +978,7 @@ endif::[]
 
 == Risks & Mitigation
 ifdef::lang-en[]
-*What could go wrong & how we'll handle it*
+*What could go wrong & how we'll handle it?*
 endif::[]
 ifdef::lang-de[]
 *Was könnte schiefgehen und wie gehen wir damit um?*
@@ -1100,7 +1100,7 @@ ifdef::lang-en[]
 *Special considerations when merging multiple legacy systems*
 endif::[]
 ifdef::lang-de[]
-== System Consolidation (falls zutreffend, nicht in Canvas)
+== Systemkonsolidierung (falls zutreffend, nicht in Canvas)
 *Besonderheiten bei der Zusammenführung mehrerer Legacy-Systeme*
 endif::[]
 
